@@ -23,6 +23,8 @@ public class UserDAO {
 
     /**
      * Sets userObservableList from database table "users".
+     *
+     * @throws SQLException exception to throw just in case
      */
     public static void setUserObservableList() throws SQLException {
 
@@ -44,20 +46,5 @@ public class UserDAO {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-    }
-
-    /**
-     * @param userId ID of Contact that is being searched for
-     * @return Contact that has the corresponding contactId
-     */
-    public static User getUserFromId(int userId) {
-        User user = null;
-        for (int i = 0; i < userObservableList.size(); i++) {
-            if (userObservableList.get(i).getUserId() == userId) {
-                user = userObservableList.get(i);
-            }
-        }
-
-        return user;
     }
 }

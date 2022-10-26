@@ -28,7 +28,8 @@ public class JavaFXLoader {
      * Create new JavaFX window using specified FXML file.
      *
      * @param fxmlFile String of FXML file name to load
-     * @param title    title for window
+     * @param title    title of window
+     * @param modality Modality of window
      */
     public void loadFXML(String fxmlFile, String title, Modality modality) {
 

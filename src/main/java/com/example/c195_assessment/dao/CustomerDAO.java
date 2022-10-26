@@ -58,6 +58,7 @@ public class CustomerDAO {
      * adds a new Customer to the "customers" SQL table
      *
      * @param customer Customer to add
+     * @throws SQLException Exception thrown if SQL query fails
      */
     public static void addCustomer(Customer customer) throws SQLException {
 

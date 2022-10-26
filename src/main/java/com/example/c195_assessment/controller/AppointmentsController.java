@@ -146,12 +146,24 @@ public class AppointmentsController implements Initializable {
         }
     }
 
+    /**
+     * Runs when weekRadioButton is pressed.
+     * Sorts appointmentTableView items by week number of the data from Start column
+     *
+     * @param actionEvent ActionEvent to pass
+     */
     @FXML
     public void onWeekRadioButtonAction(ActionEvent actionEvent) {
         appointmentTableView.setItems(appointmentObservableListSortedByWeek);
         appointmentTableView.refresh();
     }
 
+    /**
+     * Runs when monthRadioButton is pressed.
+     * Sorts appointmentTableView items by month of the data from Start column
+     *
+     * @param actionEvent ActionEvent to pass
+     */
     @FXML
     public void onMonthRadioButtonAction(ActionEvent actionEvent) {
         appointmentTableView.setItems(appointmentObservableListSortedByMonth);

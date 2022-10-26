@@ -3,7 +3,6 @@ package com.example.c195_assessment.dao;
 import com.example.c195_assessment.*;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.collections.transformation.FilteredList;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -40,8 +39,6 @@ public class AppointmentDAO {
      * ObservableList for number of Appointments with corresponding type and month
      */
     public static ObservableList<NumberOfAppointments> numberOfAppointmentsObservableList = FXCollections.observableArrayList();
-
-    public static FilteredList<Appointment> appointmentFilteredList = new FilteredList<>(appointmentObservableList);
 
     /**
      * Default constructor
@@ -238,10 +235,11 @@ public class AppointmentDAO {
     }
 
     /**
-     * Checks if there is an Appointment within 15 before current time and returns that Appointment if so a
+     * Checks if there is an Appointment within 15 before current time and returns that Appointment if parameter user matches userId of found Appointment.
      *
-     * @return Appointment that is within 15 minutes before
-     * @throws SQLException
+     * @param user User to compare getUserId() with Appointment
+     * @return Appointment that is within 15 minutes before LocalDateTime.now()
+     * @throws SQLException Exception to throw if SQL query fails
      */
     public static Appointment notification(User user) throws SQLException {
 
@@ -274,16 +272,5 @@ public class AppointmentDAO {
         preparedStatement.close();
 
         return appointment;
-    }
-
-    public static void setAppointmentFilteredList(Contact contact) {
-        // Sets the appointmentFilteredList to only contain Appointment in which getContact() return value matches contact parameter.
-        appointmentFilteredList.setPredicate(appointment -> {
-            if (appointment.getContact().equals(contact)) {
-                return true;
-            } else {
-                return false;
-            }
-        });
     }
 }

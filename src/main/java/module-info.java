@@ -1,3 +1,6 @@
+/**
+ * module-info to enable use of specified libraries
+ */
 module com.example.c195_assessment {
 
     requires java.sql;
