@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d30cad4a-91bd-437f-a7cf-350f57c33d52" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-base-17.0.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-base-17.0.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-base-17.0.1-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-base-17.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-controls-17.0.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-controls-17.0.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-controls-17.0.1-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-controls-17.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-fxml-17.0.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-fxml-17.0.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-fxml-17.0.1-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-fxml-17.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-graphics-17.0.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-graphics-17.0.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-graphics-17.0.1-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-graphics-17.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-j-8.0.31.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login_activity.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/Appointment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/AppointmentValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/JDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/JavaFXLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/LogWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/NumberOfAppointments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AddAppointmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AddCustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AppointmentsByContactController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AppointmentsByUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AppointmentsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/CustomersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/DialogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/EditAppointmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/EditCustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/NumberOfAppointmentsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/ReportsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/SignInController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/converter/ContactStringConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/converter/CountryStringConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/converter/CustomerStringConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/converter/DivisionStringConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/converter/UserStringConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/AppointmentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/ContactDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/CountryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/DivisionDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/AddAppointment.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/AddCustomer.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/Appointments.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/AppointmentsByContact.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/AppointmentsByUser.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/Customers.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/Dialog.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/EditAppointment.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/EditCustomer.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/Home.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/NumberOfAppointments.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/Reports.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/SignIn.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lang.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lang_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lang_fr.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="b1y7kexv" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2GEJiRuMBQD8NYfdb9wQs5JqSKS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "true",
+    "OverrideImplement.generate.javadoc": "true",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/sheld/IdeaProjects/c195_assessment/lib/mysql-connector-j-8.0.31.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.14941406",
+    "project.structure.side.proportion": "0.20689656",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.splitter.proportion": "0.3065173"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sheld\IdeaProjects\c195_assessment\lib" />
+      <recent name="C:\Users\sheld\IdeaProjects\c195\lib" />
+      <recent name="C:\Users\sheld\IdeaProjects\c195\src\main\java" />
+      <recent name="C:\Users\sheld\IdeaProjects\c195\src\main\java\com\example\c195" />
+      <recent name="C:\Users\sheld\IdeaProjects\c195\src\main\resources\com\example\c195" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sheld\IdeaProjects\c195\src\main\resources\com\example\c195" />
+      <recent name="C:\Users\sheld\IdeaProjects\c195\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Java 17" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.c195_assessment.Main" />
+      <module name="c195_assessment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d30cad4a-91bd-437f-a7cf-350f57c33d52" name="Changes" comment="" />
+      <created>1665947937613</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665947937613</updated>
+      <workItem from="1665947938941" duration="1720000" />
+      <workItem from="1665954233361" duration="1420000" />
+      <workItem from="1666195562334" duration="5689000" />
+      <workItem from="1666207674248" duration="28263000" />
+      <workItem from="1666362459568" duration="8894000" />
+      <workItem from="1666540760963" duration="32742000" />
+      <workItem from="1666624468377" duration="4577000" />
+      <workItem from="1666629750238" duration="8400000" />
+      <workItem from="1666715893938" duration="30398000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

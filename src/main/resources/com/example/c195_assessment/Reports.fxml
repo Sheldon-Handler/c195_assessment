@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19"
+            fx:controller="com.example.c195_assessment.controller.ReportsController">
+    <children>
+        <TabPane tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                 AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <tabs>
+                <Tab text="%number.of.appointments">
+                    <content>
+                        <fx:include source="NumberOfAppointments.fxml"/>
+                    </content>
+                </Tab>
+                <Tab text="%appointments.by.contact">
+                    <content>
+                        <fx:include source="AppointmentsByContact.fxml"/>
+                    </content>
+                </Tab>
+                <Tab closable="false" text="%appointments.by.date">
+                    <fx:include source="AppointmentsByUser.fxml"/>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</AnchorPane>

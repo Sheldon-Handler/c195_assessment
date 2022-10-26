@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19"
+            fx:controller="com.example.c195_assessment.controller.AppointmentsByContactController">
+    <children>
+        <BorderPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                    AnchorPane.topAnchor="0.0">
+            <top>
+                <ToolBar BorderPane.alignment="CENTER">
+                    <items>
+                        <ComboBox fx:id="contactComboBox" editable="true" minWidth="200.0"
+                                  onAction="#onContactComboBoxAction" promptText="%select.contact"/>
+                    </items>
+                </ToolBar>
+            </top>
+            <center>
+                <TableView fx:id="appointmentTableView" BorderPane.alignment="CENTER">
+                    <columns>
+                        <TableColumn fx:id="appointmentId" editable="false" maxWidth="1.7976931348623157E308"
+                                     minWidth="100.0" prefWidth="-1.0" text="%appointment.id"/>
+                        <TableColumn fx:id="title" editable="false" maxWidth="1.7976931348623157E308" minWidth="150.0"
+                                     prefWidth="-1.0" text="%title"/>
+                        <TableColumn fx:id="type" editable="false" maxWidth="1.7976931348623157E308" minWidth="150.0"
+                                     prefWidth="-1.0" text="%type"/>
+                        <TableColumn fx:id="description" editable="false" maxWidth="1.7976931348623157E308"
+                                     minWidth="200.0" prefWidth="-1.0" text="%description"/>
+                        <TableColumn fx:id="start" editable="false" maxWidth="1.7976931348623157E308" minWidth="120.0"
+                                     prefWidth="-1.0" text="%start"/>
+                        <TableColumn fx:id="end" editable="false" maxWidth="1.7976931348623157E308" minWidth="120.0"
+                                     prefWidth="-1.0" text="%end"/>
+                        <TableColumn fx:id="customerId" editable="false" maxWidth="1.7976931348623157E308"
+                                     minWidth="100.0" prefWidth="-1.0" text="%customer.id"/>
+                        <TableColumn fx:id="userId" editable="false" maxWidth="1.7976931348623157E308" minWidth="31.0"
+                                     prefWidth="51.0" sortable="false" text="%user.id"/>
+                    </columns>
+                </TableView>
+            </center>
+        </BorderPane>
+    </children>
+</AnchorPane>
