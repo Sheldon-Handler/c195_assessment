@@ -20,7 +20,7 @@ import java.util.ResourceBundle;
 
 /**
  * JavaFX FXML Controller class
- * for "AppointmentsByContact.fxml"
+ * Controller for "AppointmentsByContact.fxml"
  */
 public class AppointmentsByContactController implements Initializable {
 

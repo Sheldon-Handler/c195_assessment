@@ -19,6 +19,10 @@ import java.util.ResourceBundle;
 
 import static com.example.c195_assessment.dao.AppointmentDAO.*;
 
+/**
+ * FXML Controller class
+ * Controller for Appointments.fxml
+ */
 public class AppointmentsController implements Initializable {
 
     @FXML

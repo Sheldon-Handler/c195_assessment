@@ -28,7 +28,7 @@ import static com.example.c195_assessment.dao.UserDAO.userObservableList;
 
 /**
  * FXML Controller class
- * Controller for AppointmentDAO.fxml
+ * Controller for AddAppointment.fxml
  *
  * @author Sheldon Handler
  */

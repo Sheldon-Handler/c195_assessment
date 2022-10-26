@@ -5,7 +5,7 @@ import com.example.c195_assessment.dao.UserDAO;
 import javafx.util.StringConverter;
 
 /**
- * StringConverter subclass for User
+ * StringConverter class for User
  *
  * @author Sheldon Handler
  */

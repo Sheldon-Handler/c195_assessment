@@ -11,8 +11,12 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+/**
+ * FXML Controller class
+ * <p>
+ * Controller for "NumberOfAppointments.fxml"
+ */
 public class NumberOfAppointmentsController implements Initializable {
-
 
     /**
      * TableView for this report
@@ -54,5 +58,6 @@ public class NumberOfAppointmentsController implements Initializable {
         this.type.setCellValueFactory(new PropertyValueFactory<>(this.type.getId()));
         this.month.setCellValueFactory(new PropertyValueFactory<>(this.month.getId()));
         this.numberOfAppointments.setCellValueFactory(new PropertyValueFactory<>(this.numberOfAppointments.getId()));
+
     }
 }

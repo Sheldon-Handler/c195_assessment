@@ -24,7 +24,7 @@ import java.util.ResourceBundle;
 
 /**
  * FXML Controller class
- * Controller for "EditAppointment.fxml"
+ * Controller for "EditCustomer.fxml"
  *
  * @author Sheldon Handler
  */

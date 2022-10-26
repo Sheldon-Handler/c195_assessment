@@ -5,7 +5,7 @@ import com.example.c195_assessment.dao.CountryDAO;
 import javafx.util.StringConverter;
 
 /**
- * StringConverter subclass for Country
+ * StringConverter class for Country
  *
  * @author Sheldon Handler
  */

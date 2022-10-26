@@ -1,5 +1,10 @@
 package com.example.c195_assessment;
 
+/**
+ * Java class for number of Appointments report
+ *
+ * @author Sheldon Handler
+ */
 public class NumberOfAppointments {
 
     /**

@@ -6,6 +6,8 @@ import java.io.IOException;
 /**
  * Java class LogWriter
  * Contains method for appending log file
+ *
+ * @author Sheldon Handler
  */
 public class LogWriter {
 

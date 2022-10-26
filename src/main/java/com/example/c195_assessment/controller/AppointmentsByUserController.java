@@ -19,6 +19,12 @@ import java.net.URL;
 import java.time.LocalDateTime;
 import java.util.ResourceBundle;
 
+/**
+ * FXML Controller class
+ * Controller for AppointmentsByUser.fxml
+ *
+ * @author Sheldon Handler
+ */
 public class AppointmentsByUserController implements Initializable {
 
     /**

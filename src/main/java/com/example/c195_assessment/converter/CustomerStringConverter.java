@@ -5,7 +5,7 @@ import com.example.c195_assessment.dao.CustomerDAO;
 import javafx.util.StringConverter;
 
 /**
- * StringConverter subclass for Customer
+ * StringConverter class for Customer
  *
  * @author Sheldon Handler
  */
