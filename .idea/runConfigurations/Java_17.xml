@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Java 17" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.example.c195_assessment.Main" />
+    <module name="c195_assessment" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
