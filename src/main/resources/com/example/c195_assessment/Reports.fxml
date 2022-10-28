@@ -14,13 +14,13 @@
                         <fx:include source="NumberOfAppointments.fxml"/>
                     </content>
                 </Tab>
-                <Tab text="%appointments.by.contact">
+                <Tab text="%contact.schedule">
                     <content>
-                        <fx:include source="AppointmentsByContact.fxml"/>
+                        <fx:include source="ContactSchedule.fxml"/>
                     </content>
                 </Tab>
-                <Tab closable="false" text="%appointments.by.date">
-                    <fx:include source="AppointmentsByUser.fxml"/>
+                <Tab closable="false" text="%user.schedule">
+                    <fx:include source="UserSchedule.fxml"/>
                 </Tab>
             </tabs>
         </TabPane>

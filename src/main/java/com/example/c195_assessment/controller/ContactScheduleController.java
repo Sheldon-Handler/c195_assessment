@@ -20,9 +20,9 @@ import java.util.ResourceBundle;
 
 /**
  * JavaFX FXML Controller class
- * Controller for "AppointmentsByContact.fxml"
+ * Controller for "ContactSchedule.fxml"
  */
-public class AppointmentsByContactController implements Initializable {
+public class ContactScheduleController implements Initializable {
 
 
     /**
@@ -74,12 +74,12 @@ public class AppointmentsByContactController implements Initializable {
     /**
      * FilteredList for Appointment filtered by selected item in contactComboBox
      */
-    private FilteredList<Appointment> appointmentFilteredList = new FilteredList<>(AppointmentDAO.appointmentObservableList);
+    private FilteredList<Appointment> appointmentFilteredList = new FilteredList<>(AppointmentDAO.appointmentObservableListSortedByStart);
 
     /**
      * Default constructor.
      */
-    public AppointmentsByContactController() {
+    public ContactScheduleController() {
     }
 
     /**

@@ -52,6 +52,9 @@ public class SignInController implements Initializable {
     @FXML
     protected Button loginButton;
 
+    /**
+     * User that is found based on username entered
+     */
     private User user;
 
     /**
@@ -107,7 +110,11 @@ public class SignInController implements Initializable {
      * creates a notification DialogPane if there is an Appointment within 15 minutes before LocalDateTime.now()
      */
     private void notification(User user) {
-        Appointment appointment = null;
+
+        JavaFXLoader javaFXLoader = new JavaFXLoader();
+
+        Appointment appointment;
+
         try {
             appointment = AppointmentDAO.notification(user);
         } catch (SQLException e) {
@@ -115,14 +122,15 @@ public class SignInController implements Initializable {
         }
 
         if (appointment != null) {
-            DialogController.contentText = ResourceBundle.getBundle("lang").getString("appointment.notification.content")
-                    + " " + appointment.getStart() + " "
+            DialogController.contentText = ResourceBundle.getBundle("lang").getString("upcoming.appointment")
+                    + " " + appointment.getStart() + "\n"
                     + ResourceBundle.getBundle("lang").getString("appointment.id")
-                    + " = " + appointment.getAppointmentId();
+                    + ": " + appointment.getAppointmentId();
 
-            JavaFXLoader javaFXLoader = new JavaFXLoader();
-
-            javaFXLoader.loadFXML("Dialog.fxml", ResourceBundle.getBundle("lang").getString("reminder"), Modality.APPLICATION_MODAL);
+        } else {
+            DialogController.contentText = ResourceBundle.getBundle("lang").getString("no.upcoming.appointment");
         }
+
+        javaFXLoader.loadFXML("Dialog.fxml", ResourceBundle.getBundle("lang").getString("reminder"), Modality.APPLICATION_MODAL);
     }
 }

@@ -113,14 +113,22 @@ public class CustomerDAO {
     public static void deleteCustomer(Customer customer) throws SQLException {
 
         // preparing SQL statement
-        PreparedStatement preparedStatement = JDBC.getConnection().prepareStatement("DELETE FROM customers WHERE Customer_ID = ?;");
+        PreparedStatement preparedStatement = JDBC.getConnection().prepareStatement("DELETE FROM client_schedule.appointments WHERE Customer_ID = ?");
+        PreparedStatement preparedStatement1 = JDBC.getConnection().prepareStatement("DELETE FROM client_schedule.customers WHERE Customer_ID = ?");
+
         preparedStatement.setInt(1, customer.getCustomerId());
+        preparedStatement1.setInt(1, customer.getCustomerId());
 
         // executing prepared statement
         preparedStatement.executeUpdate();
+        preparedStatement1.executeUpdate();
         preparedStatement.close();
+        preparedStatement1.close();
 
         // updating customerObservableList
         setCustomerObservableList();
+
+        // updating appointmentObservableList
+        AppointmentDAO.setAppointmentObservableList();
     }
 }

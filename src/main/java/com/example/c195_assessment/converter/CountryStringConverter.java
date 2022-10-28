@@ -38,7 +38,7 @@ public class CountryStringConverter extends StringConverter<Country> {
     public Country fromString(String string) {
         Country country = new Country();
         for (int i = 0; i < CountryDAO.countryObservableList.size(); i++) {
-            if (CountryDAO.countryObservableList.get(i).getCountry().equals(string)) {
+            if (CountryDAO.countryObservableList.get(i).toString().equals(string)) {
                 country = CountryDAO.countryObservableList.get(i);
             }
         }

@@ -77,6 +77,6 @@ public class Country {
      */
     @Override
     public String toString() {
-        return country;
+        return getCountry();
     }
 }

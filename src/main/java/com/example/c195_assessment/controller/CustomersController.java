@@ -3,7 +3,6 @@ package com.example.c195_assessment.controller;
 import com.example.c195_assessment.Customer;
 import com.example.c195_assessment.Division;
 import com.example.c195_assessment.JavaFXLoader;
-import com.example.c195_assessment.dao.AppointmentDAO;
 import com.example.c195_assessment.dao.CustomerDAO;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -120,18 +119,6 @@ public class CustomersController implements Initializable {
         Customer customer = customersTableView.getSelectionModel().getSelectedItem();
         JavaFXLoader javaFXLoader = new JavaFXLoader();
 
-        boolean customerHasAppointment = false;
-        for (int i = 0; i < AppointmentDAO.appointmentObservableList.size(); i++) {
-            if (AppointmentDAO.appointmentObservableList.get(i).getCustomerId() == customer.getCustomerId()) {
-                customerHasAppointment = true;
-            }
-        }
-
-        if (customerHasAppointment) {
-            DialogController.contentText = ResourceBundle.getBundle("lang").getString("customer.has.appointment") + " " + customer.getCustomerId();
-            javaFXLoader.loadFXML("Dialog.fxml", ResourceBundle.getBundle("lang").getString("error"), Modality.APPLICATION_MODAL);
-        } else {
-
             try {
                 CustomerDAO.deleteCustomer(customer);
                 DialogController.contentText = ResourceBundle.getBundle("lang").getString("customer.deleted") + " " + customer.getCustomerId();
@@ -140,5 +127,4 @@ public class CustomersController implements Initializable {
                 throw new RuntimeException(sqlException);
             }
         }
-    }
 }

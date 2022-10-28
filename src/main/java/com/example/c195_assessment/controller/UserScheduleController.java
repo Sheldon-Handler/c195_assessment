@@ -21,11 +21,11 @@ import java.util.ResourceBundle;
 
 /**
  * FXML Controller class
- * Controller for AppointmentsByUser.fxml
+ * Controller for UserSchedule.fxml
  *
  * @author Sheldon Handler
  */
-public class AppointmentsByUserController implements Initializable {
+public class UserScheduleController implements Initializable {
 
     /**
      * ComboBox for choosing the User to view Appointment for
@@ -85,7 +85,7 @@ public class AppointmentsByUserController implements Initializable {
     /**
      * FilteredList of Appointment filtered by Date
      */
-    private FilteredList<Appointment> appointmentFilteredList = new FilteredList<>(AppointmentDAO.appointmentObservableList);
+    private FilteredList<Appointment> appointmentFilteredList = new FilteredList<>(AppointmentDAO.appointmentObservableListSortedByStart);
 
     /**
      * Called to initialize a controller after its root element has been

@@ -25,8 +25,14 @@ import static com.example.c195_assessment.dao.AppointmentDAO.*;
  */
 public class AppointmentsController implements Initializable {
 
+    /**
+     * RadioButton to sort by week of Start
+     */
     @FXML
-    protected RadioButton weekRadioButton, monthRadioButton;
+    protected RadioButton weekRadioButton, /**
+     * RadioButton to sort by month of Start
+     */
+    monthRadioButton;
 
     /**
      * appointmentTableView of Appointment

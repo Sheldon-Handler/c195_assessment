@@ -38,7 +38,7 @@ public class DivisionStringConverter extends StringConverter<Division> {
     public Division fromString(String string) {
         Division division = new Division();
         for (int i = 0; i < DivisionDAO.divisionObservableList.size(); i++) {
-            if (DivisionDAO.divisionObservableList.get(i).getDivision().equals(string)) {
+            if (DivisionDAO.divisionObservableList.get(i).toString().equals(string)) {
                 division = DivisionDAO.divisionObservableList.get(i);
             }
         }
