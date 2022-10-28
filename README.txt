@@ -10,7 +10,7 @@ IDE: IntelliJ IDEA 2022.2.3 (Ultimate Edition)
 
 JDK: Java SE JDK-17.0.4.1
 
-JavaFX: JavaFX-SDK-17.0.1
+JavaFX: JavaFX-SDK-17.0.2-LTS
 
 MySQL Connector Driver: mysql-connector-j-8.0.31
 
