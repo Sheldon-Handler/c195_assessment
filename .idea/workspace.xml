@@ -4,28 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d30cad4a-91bd-437f-a7cf-350f57c33d52" name="Changes" comment="Documentation fixed">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5b2206b4-e2a6-4a00-b17b-71b320821524.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5b2206b4-e2a6-4a00-b17b-71b320821524.xml" afterDir="false" />
+    <list default="true" id="d30cad4a-91bd-437f-a7cf-350f57c33d52" name="Changes" comment="Fixed multiple things">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/com.example.c195_assessment/com/example/c195_assessment/controller/AppointmentsByContactController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/com.example.c195_assessment/com/example/c195_assessment/controller/AppointmentsByContactController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/com.example.c195_assessment/com/example/c195_assessment/controller/AppointmentsByUserController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/com.example.c195_assessment/com/example/c195_assessment/controller/AppointmentsByUserController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/com.example.c195_assessment/com/example/c195_assessment/controller/class-use/AppointmentsByContactController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/com.example.c195_assessment/com/example/c195_assessment/controller/class-use/AppointmentsByContactController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/com.example.c195_assessment/com/example/c195_assessment/controller/class-use/AppointmentsByUserController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/com.example.c195_assessment/com/example/c195_assessment/controller/class-use/AppointmentsByUserController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_activity.txt" beforeDir="false" afterPath="$PROJECT_DIR$/login_activity.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AppointmentsByContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/ContactScheduleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AppointmentsByUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/UserScheduleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AppointmentsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AppointmentsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/CustomersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/CustomersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/SignInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/SignInController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/converter/CountryStringConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/converter/CountryStringConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/converter/DivisionStringConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/converter/DivisionStringConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/AppointmentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/AppointmentDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/CustomerDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/AppointmentsByContact.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/ContactSchedule.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/AppointmentsByUser.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/UserSchedule.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/Reports.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/Reports.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/lang.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lang.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,12 +54,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/sheld/IdeaProjects/c195_assessment/lib/mysql-connector-j-8.0.31.jar",
+    "last_opened_file_path": "C:/Users/sheld/IdeaProjects/c195_assessment/JavaDoc",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.14941406",
     "project.structure.side.proportion": "0.20689656",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -137,6 +117,7 @@
       <workItem from="1666715893938" duration="36024000" />
       <workItem from="1666964295028" duration="4874000" />
       <workItem from="1666974000971" duration="3558000" />
+      <workItem from="1666977806561" duration="984000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1666808055040</created>
@@ -166,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666813401814</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixed multiple things">
+      <created>1666978034247</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666978034247</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +176,8 @@
     <MESSAGE value="Fixed documentation and inline code comment issues." />
     <MESSAGE value="First commit" />
     <MESSAGE value="Documentation fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Documentation fixed" />
+    <MESSAGE value="Fixed multiple things" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed multiple things" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
