@@ -119,12 +119,12 @@ public class CustomersController implements Initializable {
         Customer customer = customersTableView.getSelectionModel().getSelectedItem();
         JavaFXLoader javaFXLoader = new JavaFXLoader();
 
-            try {
-                CustomerDAO.deleteCustomer(customer);
-                DialogController.contentText = ResourceBundle.getBundle("lang").getString("customer.deleted") + " " + customer.getCustomerId();
-                javaFXLoader.loadFXML("Dialog.fxml", ResourceBundle.getBundle("lang").getString("deleted"), Modality.APPLICATION_MODAL);
-            } catch (SQLException sqlException) {
-                throw new RuntimeException(sqlException);
-            }
+        try {
+            CustomerDAO.deleteCustomer(customer);
+            DialogController.contentText = ResourceBundle.getBundle("lang").getString("customer.deleted") + " " + customer.getCustomerId();
+            javaFXLoader.loadFXML("Dialog.fxml", ResourceBundle.getBundle("lang").getString("deleted"), Modality.APPLICATION_MODAL);
+        } catch (SQLException sqlException) {
+            throw new RuntimeException(sqlException);
         }
+    }
 }

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d30cad4a-91bd-437f-a7cf-350f57c33d52" name="Changes" comment="Fixed multiple things">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d30cad4a-91bd-437f-a7cf-350f57c33d52" name="Changes" comment="Fixed multiple things" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,12 +52,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/sheld/IdeaProjects/c195_assessment/JavaDoc",
+    "last_opened_file_path": "C:/Users/sheld/IdeaProjects/c195_assessment/lib/mysql-connector-j-8.0.31.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.14941406",
     "project.structure.side.proportion": "0.20689656",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -117,7 +115,7 @@
       <workItem from="1666715893938" duration="36024000" />
       <workItem from="1666964295028" duration="4874000" />
       <workItem from="1666974000971" duration="3558000" />
-      <workItem from="1666977806561" duration="984000" />
+      <workItem from="1666977806561" duration="1405000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1666808055040</created>
@@ -154,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666978034247</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed multiple things">
+      <created>1666978991579</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666978991579</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
