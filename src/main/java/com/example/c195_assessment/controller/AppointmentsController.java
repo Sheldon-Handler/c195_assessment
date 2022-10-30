@@ -3,6 +3,7 @@ package com.example.c195_assessment.controller;
 import com.example.c195_assessment.Appointment;
 import com.example.c195_assessment.Contact;
 import com.example.c195_assessment.JavaFXLoader;
+import com.example.c195_assessment.dao.AppointmentDAO;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -16,8 +17,6 @@ import java.net.URL;
 import java.sql.SQLException;
 import java.time.LocalDateTime;
 import java.util.ResourceBundle;
-
-import static com.example.c195_assessment.dao.AppointmentDAO.*;
 
 /**
  * FXML Controller class
@@ -94,7 +93,7 @@ public class AppointmentsController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
-        appointmentTableView.setItems(appointmentObservableListSortedByWeek);
+        appointmentTableView.setItems(AppointmentDAO.appointmentObservableListSortedByWeek);
 
         this.appointmentId.setCellValueFactory(new PropertyValueFactory<>(this.appointmentId.getId()));
         this.title.setCellValueFactory(new PropertyValueFactory<>(this.title.getId()));
@@ -143,7 +142,7 @@ public class AppointmentsController implements Initializable {
     public void onAppointmentsDeleteButtonClick(ActionEvent actionEvent) {
         Appointment appointment = appointmentTableView.getSelectionModel().getSelectedItem();
         try {
-            deleteAppointment(appointment);
+            AppointmentDAO.deleteAppointment(appointment);
             DialogController.contentText = ResourceBundle.getBundle("lang").getString("appointment.deleted") + " " + appointment.getAppointmentId();
             JavaFXLoader javaFXLoader = new JavaFXLoader();
             javaFXLoader.loadFXML("Dialog.fxml", ResourceBundle.getBundle("lang").getString("deleted"), Modality.APPLICATION_MODAL);
@@ -160,7 +159,7 @@ public class AppointmentsController implements Initializable {
      */
     @FXML
     public void onWeekRadioButtonAction(ActionEvent actionEvent) {
-        appointmentTableView.setItems(appointmentObservableListSortedByWeek);
+        appointmentTableView.setItems(AppointmentDAO.appointmentObservableListSortedByWeek);
         appointmentTableView.refresh();
     }
 
@@ -172,7 +171,7 @@ public class AppointmentsController implements Initializable {
      */
     @FXML
     public void onMonthRadioButtonAction(ActionEvent actionEvent) {
-        appointmentTableView.setItems(appointmentObservableListSortedByMonth);
+        appointmentTableView.setItems(AppointmentDAO.appointmentObservableListSortedByMonth);
         appointmentTableView.refresh();
     }
 }
