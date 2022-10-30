@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.Font?>
 <TitledPane xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER" animated="false" collapsible="false"
-            mnemonicParsing="true" text="%sign.in" xmlns="http://javafx.com/javafx/17.0.2"
+            mnemonicParsing="true" text="%sign.in" xmlns="http://javafx.com/javafx/17.0.1"
             fx:controller="com.example.c195_assessment.controller.SignInController">
     <content>
         <GridPane>

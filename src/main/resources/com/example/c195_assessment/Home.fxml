@@ -3,7 +3,7 @@
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
 <TabPane xmlns:fx="http://javafx.com/fxml/1" cacheShape="false" pickOnBounds="false" tabClosingPolicy="UNAVAILABLE"
-         xmlns="http://javafx.com/javafx/17.0.2" fx:controller="com.example.c195_assessment.controller.HomeController">
+         xmlns="http://javafx.com/javafx/17.0.1" fx:controller="com.example.c195_assessment.controller.HomeController">
     <tabs>
         <Tab closable="false" text="%appointments">
             <content>

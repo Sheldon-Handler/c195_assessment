@@ -31,8 +31,8 @@ public class AppointmentValidator {
         LocalDateTime start = appointment.getStart().atZone(ZoneId.of("America/New_York")).toLocalDateTime();
         LocalDateTime end = appointment.getEnd().atZone(ZoneId.of("America/New_York")).toLocalDateTime();
 
-        LocalDateTime businessOpening = LocalDateTime.of(start.toLocalDate(), LocalTime.of(8, 0));
-        LocalDateTime businessClosing = LocalDateTime.of(start.toLocalDate(), LocalTime.of(22, 0));
+        LocalDateTime businessOpening = LocalDateTime.of(start.atZone(ZoneId.of("America/New_York")).toLocalDate(), LocalTime.of(8, 0));
+        LocalDateTime businessClosing = LocalDateTime.of(end.atZone(ZoneId.of("America/New_York")).toLocalDate(), LocalTime.of(22, 0));
 
         if (start.isBefore(businessOpening) || start.isAfter(businessClosing) || end.isBefore(businessOpening) || end.isAfter(businessClosing)) {
             DialogController.contentText = ResourceBundle.getBundle("lang").getString("schedule.outside.of.business.hours");
@@ -71,7 +71,7 @@ public class AppointmentValidator {
      * @param start       LocalDateTime of start for current Appointment checking if time overlaps
      * @param end         LocalDateTime of end for checking if time overlaps
      * @param appointment Appointment to exclude from checking based on whether appointmentId is identical
-     * @return boolean whether the date and time between start and end are available without overlapping Appointments
+     * @return whether the date and time between start and end are available without overlapping Appointment
      */
     public boolean timesOverlap(LocalDateTime start, LocalDateTime end, Appointment appointment) {
 

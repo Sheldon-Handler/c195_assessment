@@ -114,11 +114,26 @@ public class EditAppointmentController implements Initializable {
 
         customer.setConverter(new CustomerStringConverter());
         customer.setItems(CustomerDAO.customerObservableList);
-        customer.setValue(CustomerDAO.customerObservableList.get(appointment.getCustomerId() - 1));
+
+        Customer customer1 = null;
+        for (int i = 0; i < CustomerDAO.customerObservableList.size(); i++) {
+            if (CustomerDAO.customerObservableList.get(i).getCustomerId() == appointment.getCustomerId()) {
+                customer1 = CustomerDAO.customerObservableList.get(i);
+            }
+        }
+        customer.setValue(customer1);
+
 
         user.setConverter(new UserStringConverter());
         user.setItems(UserDAO.userObservableList);
-        user.setValue(UserDAO.userObservableList.get(appointment.getUserId() - 1));
+
+        User user1 = null;
+        for (int i = 0; i < UserDAO.userObservableList.size(); i++) {
+            if (UserDAO.userObservableList.get(i).getUserId() == appointment.getUserId()) {
+                user1 = UserDAO.userObservableList.get(i);
+            }
+        }
+        user.setValue(user1);
 
         contact.setConverter(new ContactStringConverter());
         contact.setItems(ContactDAO.contactObservableList);

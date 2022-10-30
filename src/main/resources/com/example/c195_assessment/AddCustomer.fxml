@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 <TitledPane xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER" animated="false" collapsible="false"
-            text="%add.customer" xmlns="http://javafx.com/javafx/17.0.2"
+            text="%add.customer" xmlns="http://javafx.com/javafx/17.0.1"
             fx:controller="com.example.c195_assessment.controller.AddCustomerController">
     <content>
         <GridPane>

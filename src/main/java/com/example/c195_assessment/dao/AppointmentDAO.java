@@ -65,8 +65,10 @@ public class AppointmentDAO {
 
         while (resultSet.next()) {
 
-            LocalDateTime start = LocalDateTime.of(resultSet.getDate("Start").toLocalDate(), resultSet.getTime("Start").toLocalTime());
-            LocalDateTime end = LocalDateTime.of(resultSet.getDate("End").toLocalDate(), resultSet.getTime("End").toLocalTime());
+
+            LocalDateTime start = resultSet.getTimestamp("Start").toLocalDateTime();
+
+            LocalDateTime end = resultSet.getTimestamp("End").toLocalDateTime();
 
             Contact contact = ContactDAO.getContactFromId(resultSet.getInt("Contact_ID"));
 
@@ -97,8 +99,8 @@ public class AppointmentDAO {
 
         while (resultSet.next()) {
 
-            LocalDateTime start = LocalDateTime.of(resultSet.getDate("Start").toLocalDate(), resultSet.getTime("Start").toLocalTime());
-            LocalDateTime end = LocalDateTime.of(resultSet.getDate("End").toLocalDate(), resultSet.getTime("End").toLocalTime());
+            LocalDateTime start = resultSet.getTimestamp("Start").toLocalDateTime();
+            LocalDateTime end = resultSet.getTimestamp("End").toLocalDateTime();
 
             Contact contact = ContactDAO.getContactFromId(resultSet.getInt("Contact_ID"));
 
@@ -124,8 +126,8 @@ public class AppointmentDAO {
 
         while (resultSet.next()) {
 
-            LocalDateTime start = LocalDateTime.of(resultSet.getDate("Start").toLocalDate(), resultSet.getTime("Start").toLocalTime());
-            LocalDateTime end = LocalDateTime.of(resultSet.getDate("End").toLocalDate(), resultSet.getTime("End").toLocalTime());
+            LocalDateTime start = resultSet.getTimestamp("Start").toLocalDateTime();
+            LocalDateTime end = resultSet.getTimestamp("End").toLocalDateTime();
 
             Contact contact = ContactDAO.getContactFromId(resultSet.getInt("Contact_ID"));
 
@@ -151,8 +153,8 @@ public class AppointmentDAO {
 
         while (resultSet.next()) {
 
-            LocalDateTime start = LocalDateTime.of(resultSet.getDate("Start").toLocalDate(), resultSet.getTime("Start").toLocalTime());
-            LocalDateTime end = LocalDateTime.of(resultSet.getDate("End").toLocalDate(), resultSet.getTime("End").toLocalTime());
+            LocalDateTime start = resultSet.getTimestamp("Start").toLocalDateTime();
+            LocalDateTime end = resultSet.getTimestamp("End").toLocalDateTime();
 
             Contact contact = ContactDAO.getContactFromId(resultSet.getInt("Contact_ID"));
 
