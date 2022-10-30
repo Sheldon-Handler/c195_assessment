@@ -8,7 +8,6 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-import java.util.Locale;
 import java.util.ResourceBundle;
 
 /**
@@ -36,7 +35,7 @@ public class JavaFXLoader {
         try {
             Stage stage = new Stage();
             stage.setTitle(title);
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(fxmlFile), ResourceBundle.getBundle("lang", Locale.ENGLISH));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(fxmlFile), ResourceBundle.getBundle("lang"));
             Scene scene = new Scene(fxmlLoader.load());
             stage.initModality(modality);
             stage.setScene(scene);

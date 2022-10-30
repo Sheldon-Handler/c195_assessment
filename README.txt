@@ -4,13 +4,13 @@ Application purpose is for managing Customer data and Appointment scheduling wit
 
 Author: Sheldon Handler - shandl8@wgu.edu - +1-718-877-9243
 
-Application Version: 1.0.0
+Application Version: 1.0.1
 
 IDE: IntelliJ IDEA 2022.2.3 (Ultimate Edition)
 
 JDK: Java SE JDK-17.0.4.1
 
-JavaFX: JavaFX-SDK-17.0.2-LTS
+JavaFX: JavaFX-SDK-17.0.2-ea
 
 MySQL Connector Driver: mysql-connector-j-8.0.31
 
