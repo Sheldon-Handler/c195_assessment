@@ -4,7 +4,7 @@ Application purpose: Managing Customer data and Appointment scheduling with mult
 
 Author: Sheldon Handler - shandl8@wgu.edu - +1-718-877-9243
 
-Date: October 30, 2022
+Date: October 31, 2022
 
 Application Version: 1.0.1
 

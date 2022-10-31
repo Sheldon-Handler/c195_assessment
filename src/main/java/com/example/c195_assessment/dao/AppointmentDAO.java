@@ -118,7 +118,7 @@ public class AppointmentDAO {
      * @throws SQLException SQLException to throw if SQL query fails
      */
     public static void setAppointmentObservableListSortedByMonth() throws SQLException {
-        PreparedStatement preparedStatement = JDBC.getConnection().prepareStatement("SELECT * FROM appointments ORDER BY MONTH(Start);");
+        PreparedStatement preparedStatement = JDBC.getConnection().prepareStatement("SELECT * FROM appointments ORDER BY YEAR(Start), MONTH(Start);");
 
         ResultSet resultSet = preparedStatement.executeQuery();
 
