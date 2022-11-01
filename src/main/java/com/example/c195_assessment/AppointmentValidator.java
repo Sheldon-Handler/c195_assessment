@@ -34,13 +34,14 @@ public class AppointmentValidator {
         LocalDateTime businessOpening = LocalDateTime.of(start.atZone(ZoneId.of("America/New_York")).toLocalDate(), LocalTime.of(8, 0));
         LocalDateTime businessClosing = LocalDateTime.of(end.atZone(ZoneId.of("America/New_York")).toLocalDate(), LocalTime.of(22, 0));
 
-        if (start.isBefore(businessOpening) || start.isAfter(businessClosing) || end.isBefore(businessOpening) || end.isAfter(businessClosing)) {
+        if (start.isBefore(businessOpening) || start.isAfter(businessClosing) || end.isBefore(businessOpening) || end.isAfter(businessClosing) || !start.toLocalDate().equals(end.toLocalDate())) {
             DialogController.contentText = ResourceBundle.getBundle("lang").getString("schedule.outside.of.business.hours");
 
             JavaFXLoader javaFXLoader = new JavaFXLoader();
             javaFXLoader.loadFXML("Dialog.fxml", ResourceBundle.getBundle("lang").getString("error"), Modality.APPLICATION_MODAL);
 
             return false;
+
         } else if (appointment.getStart().isAfter(appointment.getEnd()) || appointment.getStart().isEqual(appointment.getEnd())) {
 
             DialogController.contentText = ResourceBundle.getBundle("lang").getString("appointment.time.invalid");
