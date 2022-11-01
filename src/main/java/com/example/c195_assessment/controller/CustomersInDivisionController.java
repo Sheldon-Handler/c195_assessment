@@ -1,13 +1,13 @@
 package com.example.c195_assessment.controller;
 
-import com.example.c195_assessment.Country;
-import com.example.c195_assessment.Customer;
-import com.example.c195_assessment.Division;
 import com.example.c195_assessment.converter.CountryStringConverter;
 import com.example.c195_assessment.converter.DivisionStringConverter;
 import com.example.c195_assessment.dao.CountryDAO;
 import com.example.c195_assessment.dao.CustomerDAO;
 import com.example.c195_assessment.dao.DivisionDAO;
+import com.example.c195_assessment.dto.Country;
+import com.example.c195_assessment.dto.Customer;
+import com.example.c195_assessment.dto.Division;
 import javafx.collections.transformation.FilteredList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

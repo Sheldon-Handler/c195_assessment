@@ -1,7 +1,7 @@
 package com.example.c195_assessment.dao;
 
-import com.example.c195_assessment.Country;
 import com.example.c195_assessment.JDBC;
+import com.example.c195_assessment.dto.Country;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 

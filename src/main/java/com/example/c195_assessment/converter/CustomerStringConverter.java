@@ -1,7 +1,7 @@
 package com.example.c195_assessment.converter;
 
-import com.example.c195_assessment.Customer;
 import com.example.c195_assessment.dao.CustomerDAO;
+import com.example.c195_assessment.dto.Customer;
 import javafx.util.StringConverter;
 
 /**

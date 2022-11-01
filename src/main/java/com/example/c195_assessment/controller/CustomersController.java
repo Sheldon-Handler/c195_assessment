@@ -1,9 +1,9 @@
 package com.example.c195_assessment.controller;
 
-import com.example.c195_assessment.Customer;
-import com.example.c195_assessment.Division;
 import com.example.c195_assessment.JavaFXLoader;
 import com.example.c195_assessment.dao.CustomerDAO;
+import com.example.c195_assessment.dto.Customer;
+import com.example.c195_assessment.dto.Division;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;

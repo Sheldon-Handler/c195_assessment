@@ -4,17 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d30cad4a-91bd-437f-a7cf-350f57c33d52" name="Changes" comment="Fixed some documentation in AppointmentValidator.java">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/c195_assessment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/UserScheduleController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/UserScheduleController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/UserScheduleController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/UserScheduleController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_activity.txt" beforeDir="false" afterPath="$PROJECT_DIR$/login_activity.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/UserScheduleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/CustomersInDivisionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/Reports.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/Reports.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/UserSchedule.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/CustomersInDivision.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/lang.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lang.properties" afterDir="false" />
+    <list default="true" id="d30cad4a-91bd-437f-a7cf-350f57c33d52" name="Changes" comment="Fixed the custom reports to match specified requirements.">
+      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/Appointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/Appointment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/Contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/Country.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/Country.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/Customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/Customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/Division.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/Division.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/NumberOfAppointments.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/NumberOfAppointments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/User.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/User.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/Appointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/Appointment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/Contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/Country.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/Country.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/Customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/Customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/Division.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/Division.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/NumberOfAppointments.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/NumberOfAppointments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/User.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/User.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dto/Appointment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/AppointmentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/AppointmentValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dto/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dto/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dto/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dto/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/NumberOfAppointments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dto/NumberOfAppointments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dto/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AddAppointmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AddAppointmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AddCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AddCustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AppointmentsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AppointmentsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/ContactScheduleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/ContactScheduleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/CustomersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/CustomersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/CustomersInDivisionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/CustomersInDivisionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/EditAppointmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/EditAppointmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/EditCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/EditCustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/NumberOfAppointmentsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/NumberOfAppointmentsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/SignInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/SignInController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/converter/ContactStringConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/converter/ContactStringConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/converter/CountryStringConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/converter/CountryStringConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/converter/CustomerStringConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/converter/CustomerStringConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/converter/DivisionStringConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/converter/DivisionStringConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/converter/UserStringConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/converter/UserStringConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/AppointmentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/AppointmentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/ContactDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/ContactDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/CountryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/CountryDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/CustomerDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/DivisionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/DivisionDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +61,7 @@
         <option value="FxmlFile" />
         <option value="Class" />
         <option value="module-info" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -149,7 +184,7 @@
       <workItem from="1667231358058" duration="1229000" />
       <workItem from="1667262931626" duration="5726000" />
       <workItem from="1667316240741" duration="1009000" />
-      <workItem from="1667323327986" duration="5410000" />
+      <workItem from="1667323327986" duration="5709000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1666808055040</created>
@@ -263,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667317158974</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Fixed the custom reports to match specified requirements.">
+      <created>1667334905413</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667334905413</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +335,8 @@
     <MESSAGE value="Fixed" />
     <MESSAGE value="Fixed scheduling to prevent scheduling between multiple days." />
     <MESSAGE value="Fixed some documentation in AppointmentValidator.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed some documentation in AppointmentValidator.java" />
+    <MESSAGE value="Fixed the custom reports to match specified requirements." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the custom reports to match specified requirements." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

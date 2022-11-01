@@ -1,8 +1,8 @@
 package com.example.c195_assessment.dao;
 
-import com.example.c195_assessment.Customer;
-import com.example.c195_assessment.Division;
 import com.example.c195_assessment.JDBC;
+import com.example.c195_assessment.dto.Customer;
+import com.example.c195_assessment.dto.Division;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 

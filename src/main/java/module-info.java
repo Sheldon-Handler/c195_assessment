@@ -10,4 +10,5 @@ module c195_assessment {
 
     opens com.example.c195_assessment to javafx.base, javafx.controls, javafx.fxml, javafx.graphics;
     opens com.example.c195_assessment.controller to javafx.base, javafx.controls, javafx.fxml, javafx.graphics;
+    opens com.example.c195_assessment.dto to javafx.base, javafx.controls, javafx.fxml, javafx.graphics;
 }

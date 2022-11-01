@@ -1,6 +1,7 @@
 package com.example.c195_assessment.controller;
 
-import com.example.c195_assessment.*;
+import com.example.c195_assessment.AppointmentValidator;
+import com.example.c195_assessment.JavaFXLoader;
 import com.example.c195_assessment.converter.ContactStringConverter;
 import com.example.c195_assessment.converter.CustomerStringConverter;
 import com.example.c195_assessment.converter.UserStringConverter;
@@ -8,6 +9,10 @@ import com.example.c195_assessment.dao.AppointmentDAO;
 import com.example.c195_assessment.dao.ContactDAO;
 import com.example.c195_assessment.dao.CustomerDAO;
 import com.example.c195_assessment.dao.UserDAO;
+import com.example.c195_assessment.dto.Appointment;
+import com.example.c195_assessment.dto.Contact;
+import com.example.c195_assessment.dto.Customer;
+import com.example.c195_assessment.dto.User;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;

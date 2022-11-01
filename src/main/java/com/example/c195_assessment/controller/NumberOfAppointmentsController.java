@@ -1,7 +1,7 @@
 package com.example.c195_assessment.controller;
 
-import com.example.c195_assessment.NumberOfAppointments;
 import com.example.c195_assessment.dao.AppointmentDAO;
+import com.example.c195_assessment.dto.NumberOfAppointments;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.TableColumn;

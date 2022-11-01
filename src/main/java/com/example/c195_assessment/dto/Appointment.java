@@ -1,4 +1,4 @@
-package com.example.c195_assessment;
+package com.example.c195_assessment.dto;
 
 import java.time.LocalDateTime;
 

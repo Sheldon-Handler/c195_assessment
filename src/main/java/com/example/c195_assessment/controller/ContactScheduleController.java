@@ -1,10 +1,10 @@
 package com.example.c195_assessment.controller;
 
-import com.example.c195_assessment.Appointment;
-import com.example.c195_assessment.Contact;
 import com.example.c195_assessment.converter.ContactStringConverter;
 import com.example.c195_assessment.dao.AppointmentDAO;
 import com.example.c195_assessment.dao.ContactDAO;
+import com.example.c195_assessment.dto.Appointment;
+import com.example.c195_assessment.dto.Contact;
 import javafx.collections.transformation.FilteredList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

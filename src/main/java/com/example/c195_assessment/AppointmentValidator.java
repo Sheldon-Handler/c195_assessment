@@ -2,6 +2,7 @@ package com.example.c195_assessment;
 
 import com.example.c195_assessment.controller.DialogController;
 import com.example.c195_assessment.dao.AppointmentDAO;
+import com.example.c195_assessment.dto.Appointment;
 import javafx.stage.Modality;
 
 import java.time.LocalDateTime;

@@ -1,7 +1,7 @@
 package com.example.c195_assessment.converter;
 
-import com.example.c195_assessment.Division;
 import com.example.c195_assessment.dao.DivisionDAO;
+import com.example.c195_assessment.dto.Division;
 import javafx.util.StringConverter;
 
 /**
