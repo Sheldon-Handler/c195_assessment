@@ -19,8 +19,8 @@
                         <fx:include source="ContactSchedule.fxml"/>
                     </content>
                 </Tab>
-                <Tab closable="false" text="%user.schedule">
-                    <fx:include source="UserSchedule.fxml"/>
+                <Tab closable="false" text="%customers.in.division">
+                    <fx:include source="CustomersInDivision.fxml"/>
                 </Tab>
             </tabs>
         </TabPane>

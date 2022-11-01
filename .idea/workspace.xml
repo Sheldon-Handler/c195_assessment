@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d30cad4a-91bd-437f-a7cf-350f57c33d52" name="Changes" comment="Fixed">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5b2206b4-e2a6-4a00-b17b-71b320821524.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5b2206b4-e2a6-4a00-b17b-71b320821524.xml" afterDir="false" />
+    <list default="true" id="d30cad4a-91bd-437f-a7cf-350f57c33d52" name="Changes" comment="Fixed some documentation in AppointmentValidator.java">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/c195_assessment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/UserScheduleController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/UserScheduleController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/UserScheduleController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/UserScheduleController.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login_activity.txt" beforeDir="false" afterPath="$PROJECT_DIR$/login_activity.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/AppointmentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/AppointmentValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/UserScheduleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/CustomersInDivisionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/Reports.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/Reports.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/UserSchedule.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/CustomersInDivision.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/lang.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lang.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,42 +65,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sheld/OneDrive - Western Governors University&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.14941406&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.20689656&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.3065173&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "true",
+    "OverrideImplement.generate.javadoc": "true",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/sheld/OneDrive - Western Governors University",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.14941406",
+    "project.structure.side.proportion": "0.20689656",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "build.tools",
+    "settings.editor.splitter.proportion": "0.3065173"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
-      &quot;MySQL&quot;,
-      &quot;GenericSQL&quot;
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
+      "MySQL",
+      "GenericSQL"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sheld\IdeaProjects\c195_assessment\lib" />
@@ -142,7 +148,8 @@
       <workItem from="1667159815776" duration="1699000" />
       <workItem from="1667231358058" duration="1229000" />
       <workItem from="1667262931626" duration="5726000" />
-      <workItem from="1667316240741" duration="583000" />
+      <workItem from="1667316240741" duration="1009000" />
+      <workItem from="1667323327986" duration="5410000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1666808055040</created>
@@ -242,7 +249,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667268874690</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Fixed scheduling to prevent scheduling between multiple days.">
+      <created>1667317096544</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667317096544</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Fixed some documentation in AppointmentValidator.java">
+      <created>1667317158974</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667317158974</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +291,9 @@
     <MESSAGE value="Fixed README.txt by adding date." />
     <MESSAGE value="Fixed month sorting." />
     <MESSAGE value="Fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed" />
+    <MESSAGE value="Fixed scheduling to prevent scheduling between multiple days." />
+    <MESSAGE value="Fixed some documentation in AppointmentValidator.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed some documentation in AppointmentValidator.java" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
