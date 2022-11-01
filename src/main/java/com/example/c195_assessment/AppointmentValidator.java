@@ -21,7 +21,7 @@ public class AppointmentValidator {
     }
 
     /**
-     * Checks if Appointment is valid or not.
+     * Checks if Appointment LocalDateTime values are valid.
      *
      * @param appointment Appointment to validate
      * @return boolean whether Appointment is valid or not
