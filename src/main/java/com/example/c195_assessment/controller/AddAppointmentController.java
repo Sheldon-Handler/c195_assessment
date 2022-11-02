@@ -36,7 +36,6 @@ import static com.example.c195_assessment.dao.UserDAO.userObservableList;
  * Controller for AddAppointment.fxml
  *
  * @author Sheldon Handler
- * @// FIXME: 11/1/2022 Overlap must be allowed if not same Customer
  */
 public class AddAppointmentController implements Initializable {
 

@@ -82,24 +82,33 @@ public class AppointmentValidator {
         for (int i = 0; i < AppointmentDAO.appointmentObservableList.size(); i++) {
             if (start.equals(AppointmentDAO.appointmentObservableList.get(i).getStart()) || end.equals(AppointmentDAO.appointmentObservableList.get(i).getEnd())) {
                 if (AppointmentDAO.appointmentObservableList.get(i).getAppointmentId() != appointment.getAppointmentId()) {
-                    flag = true;
+                    if (AppointmentDAO.appointmentObservableList.get(i).getCustomerId() == appointment.getCustomerId()) {
+                        flag = true;
+                        break;
+                    }
                 }
                 break;
             } else if (start.isAfter(AppointmentDAO.appointmentObservableList.get(i).getStart()) && start.isBefore(AppointmentDAO.appointmentObservableList.get(i).getEnd())) {
                 if (AppointmentDAO.appointmentObservableList.get(i).getAppointmentId() != appointment.getAppointmentId()) {
-                    flag = true;
+                    if (AppointmentDAO.appointmentObservableList.get(i).getCustomerId() == appointment.getCustomerId()) {
+                        flag = true;
+                        break;
+                    }
                 }
-                break;
             } else if (end.isAfter(AppointmentDAO.appointmentObservableList.get(i).getStart()) && end.isBefore(AppointmentDAO.appointmentObservableList.get(i).getEnd())) {
                 if (AppointmentDAO.appointmentObservableList.get(i).getAppointmentId() != appointment.getAppointmentId()) {
-                    flag = true;
+                    if (AppointmentDAO.appointmentObservableList.get(i).getCustomerId() == appointment.getCustomerId()) {
+                        flag = true;
+                        break;
+                    }
                 }
-                break;
             } else if (AppointmentDAO.appointmentObservableList.get(i).getStart().isAfter(start) && AppointmentDAO.appointmentObservableList.get(i).getEnd().isBefore(end)) {
                 if (AppointmentDAO.appointmentObservableList.get(i).getAppointmentId() != appointment.getAppointmentId()) {
-                    flag = true;
+                    if (AppointmentDAO.appointmentObservableList.get(i).getCustomerId() == appointment.getCustomerId()) {
+                        flag = true;
+                        break;
+                    }
                 }
-                break;
             }
         }
         return flag;

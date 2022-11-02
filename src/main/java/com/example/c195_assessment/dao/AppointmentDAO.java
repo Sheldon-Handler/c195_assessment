@@ -29,16 +29,6 @@ public class AppointmentDAO {
     public static ObservableList<Appointment> appointmentObservableList = FXCollections.observableArrayList();
 
     /**
-     * ObservableList of Appointment from "appointments" table in database, sorted by Week of Start.
-     */
-    public static ObservableList<Appointment> appointmentObservableListSortedByWeek = FXCollections.observableArrayList();
-
-    /**
-     * ObservableList of Appointment from "appointments" table in database, sorted by Month of Start.
-     */
-    public static ObservableList<Appointment> appointmentObservableListSortedByMonth = FXCollections.observableArrayList();
-
-    /**
      * ObservableList of Appointment from "appointments" table in database, sorted by Start.
      */
     public static ObservableList<Appointment> appointmentObservableListSortedByStart = FXCollections.observableArrayList();
@@ -83,91 +73,7 @@ public class AppointmentDAO {
 
         preparedStatement.close();
 
-        setAppointmentObservableListSortedByWeek();
-        setAppointmentObservableListSortedByMonth();
-        setAppointmentObservableListSortedByStart();
         setNumberOfAppointmentsObservableList();
-    }
-
-    /**
-     * Sets the ObservableList for appointmentObservableListSortedByWeek
-     *
-     * @throws SQLException SQLException to throw if SQL query fails
-     */
-    public static void setAppointmentObservableListSortedByWeek() throws SQLException {
-        PreparedStatement preparedStatement = JDBC.getConnection().prepareStatement("SELECT * FROM appointments ORDER BY YEAR(Start), WEEK(Start);");
-
-        ResultSet resultSet = preparedStatement.executeQuery();
-
-        appointmentObservableListSortedByWeek.clear();
-
-        while (resultSet.next()) {
-
-            LocalDateTime start = resultSet.getTimestamp("Start").toLocalDateTime();
-            LocalDateTime end = resultSet.getTimestamp("End").toLocalDateTime();
-
-            Contact contact = ContactDAO.getContactFromId(resultSet.getInt("Contact_ID"));
-
-            Appointment appointment = new Appointment(resultSet.getInt("Appointment_ID"), resultSet.getString("Title"), resultSet.getString("Description"), resultSet.getString("Location"), resultSet.getString("Type"), start, end, resultSet.getInt("Customer_ID"), resultSet.getInt("User_ID"), contact);
-
-            appointmentObservableListSortedByWeek.add(appointment);
-        }
-
-        preparedStatement.close();
-    }
-
-    /**
-     * Sets the ObservableList for appointmentObservableListSortedByMonth
-     *
-     * @throws SQLException SQLException to throw if SQL query fails
-     */
-    public static void setAppointmentObservableListSortedByMonth() throws SQLException {
-        PreparedStatement preparedStatement = JDBC.getConnection().prepareStatement("SELECT * FROM appointments ORDER BY YEAR(Start), MONTH(Start);");
-
-        ResultSet resultSet = preparedStatement.executeQuery();
-
-        appointmentObservableListSortedByMonth.clear();
-
-        while (resultSet.next()) {
-
-            LocalDateTime start = resultSet.getTimestamp("Start").toLocalDateTime();
-            LocalDateTime end = resultSet.getTimestamp("End").toLocalDateTime();
-
-            Contact contact = ContactDAO.getContactFromId(resultSet.getInt("Contact_ID"));
-
-            Appointment appointment = new Appointment(resultSet.getInt("Appointment_ID"), resultSet.getString("Title"), resultSet.getString("Description"), resultSet.getString("Location"), resultSet.getString("Type"), start, end, resultSet.getInt("Customer_ID"), resultSet.getInt("User_ID"), contact);
-
-            appointmentObservableListSortedByMonth.add(appointment);
-        }
-
-        preparedStatement.close();
-    }
-
-    /**
-     * Sets the ObservableList for appointmentObservableListSortedByMonth
-     *
-     * @throws SQLException SQLException to throw if SQL query fails
-     */
-    public static void setAppointmentObservableListSortedByStart() throws SQLException {
-        PreparedStatement preparedStatement = JDBC.getConnection().prepareStatement("SELECT * FROM appointments ORDER BY Start;");
-
-        ResultSet resultSet = preparedStatement.executeQuery();
-
-        appointmentObservableListSortedByStart.clear();
-
-        while (resultSet.next()) {
-
-            LocalDateTime start = resultSet.getTimestamp("Start").toLocalDateTime();
-            LocalDateTime end = resultSet.getTimestamp("End").toLocalDateTime();
-
-            Contact contact = ContactDAO.getContactFromId(resultSet.getInt("Contact_ID"));
-
-            Appointment appointment = new Appointment(resultSet.getInt("Appointment_ID"), resultSet.getString("Title"), resultSet.getString("Description"), resultSet.getString("Location"), resultSet.getString("Type"), start, end, resultSet.getInt("Customer_ID"), resultSet.getInt("User_ID"), contact);
-
-            appointmentObservableListSortedByStart.add(appointment);
-        }
-
-        preparedStatement.close();
     }
 
     /**

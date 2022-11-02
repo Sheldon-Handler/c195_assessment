@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d30cad4a-91bd-437f-a7cf-350f57c33d52" name="Changes" comment="fixed git">
+    <list default="true" id="d30cad4a-91bd-437f-a7cf-350f57c33d52" name="Changes" comment="fixed Appointments.fxml and AppointmentsController.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login_activity.txt" beforeDir="false" afterPath="$PROJECT_DIR$/login_activity.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/AppointmentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/AppointmentValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AddAppointmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AddAppointmentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AppointmentsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AppointmentsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/Appointments.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/Appointments.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/lang.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lang.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/NumberOfAppointmentsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/NumberOfAppointmentsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/AppointmentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/AppointmentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/AppointmentValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/AppointmentValidator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/Appointments.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/Appointments.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/Customers.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/Customers.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/CustomersInDivision.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/CustomersInDivision.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/AddAppointmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/AddAppointmentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/AppointmentsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/AppointmentsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/CustomersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/CustomersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lang.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lang.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/NumberOfAppointmentsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/NumberOfAppointmentsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/dao/AppointmentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/dao/AppointmentDAO.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +156,7 @@
       <workItem from="1667323327986" duration="6601000" />
       <workItem from="1667340239929" duration="618000" />
       <workItem from="1667344199330" duration="127000" />
-      <workItem from="1667351705789" duration="3782000" />
+      <workItem from="1667351705789" duration="6824000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1666808055040</created>
@@ -324,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667352409656</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="fixed Appointments.fxml and AppointmentsController.java">
+      <created>1667355758113</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1667355758113</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +371,8 @@
     <MESSAGE value="added country to customersTableView" />
     <MESSAGE value="fixed got" />
     <MESSAGE value="fixed git" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed git" />
+    <MESSAGE value="fixed Appointments.fxml and AppointmentsController.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed Appointments.fxml and AppointmentsController.java" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

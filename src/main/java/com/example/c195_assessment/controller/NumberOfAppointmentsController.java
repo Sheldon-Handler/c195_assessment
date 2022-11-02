@@ -13,7 +13,6 @@ import java.util.ResourceBundle;
 
 /**
  * FXML Controller class
- * <p>
  * Controller for "NumberOfAppointments.fxml"
  */
 public class NumberOfAppointmentsController implements Initializable {
