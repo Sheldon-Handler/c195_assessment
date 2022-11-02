@@ -4,20 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d30cad4a-91bd-437f-a7cf-350f57c33d52" name="Changes" comment="fixed Appointments.fxml and AppointmentsController.java">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_activity.txt" beforeDir="false" afterPath="$PROJECT_DIR$/login_activity.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/AppointmentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/AppointmentValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AddAppointmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AddAppointmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AppointmentsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AppointmentsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/NumberOfAppointmentsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/NumberOfAppointmentsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/AppointmentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/dao/AppointmentDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/AppointmentValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/AppointmentValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/Appointments.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/Appointments.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/AddAppointmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/AddAppointmentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/AppointmentsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/AppointmentsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/NumberOfAppointmentsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/NumberOfAppointmentsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/dao/AppointmentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/dao/AppointmentDAO.class" afterDir="false" />
+    <list default="true" id="d30cad4a-91bd-437f-a7cf-350f57c33d52" name="Changes" comment="Fixed overlap filtering.">
+      <change beforePath="$PROJECT_DIR$/login_activity.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/AddAppointment.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/AddCustomer.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/AppointmentValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/Appointments.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/ContactSchedule.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/Customers.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/CustomersInDivision.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/Dialog.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/EditAppointment.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/EditCustomer.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/Home.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/JDBC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/JavaFXLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/LogWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/NumberOfAppointments.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/Reports.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/SignIn.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/AddAppointmentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/AddCustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/AppointmentsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/ContactScheduleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/CustomersController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/CustomersInDivisionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/DialogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/EditAppointmentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/EditCustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/NumberOfAppointmentsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/ReportsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/controller/SignInController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/converter/ContactStringConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/converter/CountryStringConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/converter/CustomerStringConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/converter/DivisionStringConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/converter/UserStringConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/dao/AppointmentDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/dao/ContactDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/dao/CountryDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/dao/CustomerDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/dao/DivisionDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/dao/UserDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/dto/Appointment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/dto/Contact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/dto/Country.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/dto/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/dto/Division.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/dto/NumberOfAppointments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/c195_assessment/dto/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lang.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lang_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lang_fr.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +198,7 @@
       <workItem from="1667323327986" duration="6601000" />
       <workItem from="1667340239929" duration="618000" />
       <workItem from="1667344199330" duration="127000" />
-      <workItem from="1667351705789" duration="6824000" />
+      <workItem from="1667351705789" duration="7123000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1666808055040</created>
@@ -333,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667355758113</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Fixed overlap filtering.">
+      <created>1667405764678</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1667405764678</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +421,8 @@
     <MESSAGE value="fixed got" />
     <MESSAGE value="fixed git" />
     <MESSAGE value="fixed Appointments.fxml and AppointmentsController.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed Appointments.fxml and AppointmentsController.java" />
+    <MESSAGE value="Fixed overlap filtering." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed overlap filtering." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
