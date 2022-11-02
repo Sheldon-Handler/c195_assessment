@@ -74,6 +74,12 @@ public class CustomersInDivisionController implements Initializable {
     protected TableColumn<Division, String> division;
 
     /**
+     * Country of Customer
+     */
+    @FXML
+    protected TableColumn<Country, String> country;
+
+    /**
      * FilteredList of Customer for data displayed in customerTableView
      */
     private FilteredList<Customer> customerFilteredList = new FilteredList<>(CustomerDAO.customerObservableList);
@@ -103,6 +109,7 @@ public class CustomersInDivisionController implements Initializable {
         this.postalCode.setCellValueFactory(new PropertyValueFactory<>(this.postalCode.getId()));
         this.phone.setCellValueFactory(new PropertyValueFactory<>(this.phone.getId()));
         this.division.setCellValueFactory(new PropertyValueFactory<>(this.division.getId()));
+        this.country.setCellValueFactory(new PropertyValueFactory<>(this.country.getId()));
 
         countryComboBox.setConverter(new CountryStringConverter());
         countryComboBox.setItems(CountryDAO.countryObservableList);

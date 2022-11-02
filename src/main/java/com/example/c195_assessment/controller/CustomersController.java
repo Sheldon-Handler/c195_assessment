@@ -2,6 +2,7 @@ package com.example.c195_assessment.controller;
 
 import com.example.c195_assessment.JavaFXLoader;
 import com.example.c195_assessment.dao.CustomerDAO;
+import com.example.c195_assessment.dto.Country;
 import com.example.c195_assessment.dto.Customer;
 import com.example.c195_assessment.dto.Division;
 import javafx.event.ActionEvent;
@@ -14,7 +15,6 @@ import javafx.stage.Modality;
 
 import java.net.URL;
 import java.sql.SQLException;
-import java.util.Locale;
 import java.util.ResourceBundle;
 
 /**
@@ -59,6 +59,12 @@ public class CustomersController implements Initializable {
     protected TableColumn<Division, String> division;
 
     /**
+     * country in customersTableView
+     */
+    @FXML
+    protected TableColumn<Country, String> country;
+
+    /**
      * Default constructor.
      */
     public CustomersController() {
@@ -83,6 +89,7 @@ public class CustomersController implements Initializable {
         this.postalCode.setCellValueFactory(new PropertyValueFactory<>(postalCode.getId()));
         this.phone.setCellValueFactory(new PropertyValueFactory<>(phone.getId()));
         this.division.setCellValueFactory(new PropertyValueFactory<>(division.getId()));
+        this.country.setCellValueFactory(new PropertyValueFactory<>(country.getId()));
     }
 
 
@@ -94,7 +101,7 @@ public class CustomersController implements Initializable {
     @FXML
     public void onCustomersAddButtonClick(ActionEvent actionEvent) {
         JavaFXLoader javaFXLoader = new JavaFXLoader();
-        javaFXLoader.loadFXML("AddCustomer.fxml", ResourceBundle.getBundle("lang", Locale.ROOT).getString("add.customer"), Modality.APPLICATION_MODAL);
+        javaFXLoader.loadFXML("AddCustomer.fxml", ResourceBundle.getBundle("lang").getString("add.customer"), Modality.APPLICATION_MODAL);
     }
 
     /**
@@ -106,7 +113,7 @@ public class CustomersController implements Initializable {
     public void onCustomersEditButtonClick(ActionEvent actionEvent) {
         EditCustomerController.customer = customersTableView.getSelectionModel().getSelectedItem();
         JavaFXLoader javaFXLoader = new JavaFXLoader();
-        javaFXLoader.loadFXML("EditCustomer.fxml", ResourceBundle.getBundle("lang", Locale.ROOT).getString("edit.customer"), Modality.APPLICATION_MODAL);
+        javaFXLoader.loadFXML("EditCustomer.fxml", ResourceBundle.getBundle("lang").getString("edit.customer"), Modality.APPLICATION_MODAL);
     }
 
     /**

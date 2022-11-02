@@ -11,7 +11,7 @@ public class Division {
      * ID of Division
      */
     private int divisionId, /**
-     * ID of Country for Division
+     * ID for Country of Division
      */
     countryId;
 
@@ -31,7 +31,7 @@ public class Division {
      *
      * @param divisionId ID of Division
      * @param division   name of Division
-     * @param countryId  ID of Country for Division
+     * @param countryId  ID for Country of Division
      */
     public Division(int divisionId, String division, int countryId) {
         this.divisionId = divisionId;
@@ -78,7 +78,7 @@ public class Division {
     /**
      * Getter for countryId
      *
-     * @return ID of Country for Division
+     * @return ID for Country of Division
      */
     public int getCountryId() {
         return countryId;
@@ -87,7 +87,7 @@ public class Division {
     /**
      * Setter for countryId
      *
-     * @param countryId ID of Country for Division
+     * @param countryId ID for Country of Division
      */
     public void setCountryId(int countryId) {
         this.countryId = countryId;

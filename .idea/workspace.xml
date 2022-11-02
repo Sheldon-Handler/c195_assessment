@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d30cad4a-91bd-437f-a7cf-350f57c33d52" name="Changes" comment="workspace.xml has changed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d30cad4a-91bd-437f-a7cf-350f57c33d52" name="Changes" comment="workspace.xml has changed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,13 +68,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/sheld/OneDrive - Western Governors University",
+    "last_opened_file_path": "C:/Users/sheld/IdeaProjects/c195_assessment/lib/mysql-connector-j-8.0.31.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Problems",
+    "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.14941406",
     "project.structure.side.proportion": "0.20689656",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -144,6 +142,7 @@
       <workItem from="1667323327986" duration="6601000" />
       <workItem from="1667340239929" duration="618000" />
       <workItem from="1667344199330" duration="127000" />
+      <workItem from="1667351705789" duration="227000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1666808055040</created>

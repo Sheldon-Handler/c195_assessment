@@ -168,7 +168,7 @@ public class EditCustomerController implements Initializable {
             DialogController.contentText = ResourceBundle.getBundle("lang").getString("customer.details.incomplete");
             javaFXLoader.loadFXML("Dialog.fxml", ResourceBundle.getBundle("lang").getString("error"), Modality.APPLICATION_MODAL);
         } else {
-            Customer customer = new Customer(Integer.parseInt(customerId.getText()), customerName.getText(), address.getText() + ", " + city.getText(), postal.getText(), phone.getText(), division.getSelectionModel().getSelectedItem());
+            Customer customer = new Customer(Integer.parseInt(customerId.getText()), customerName.getText(), address.getText() + ", " + city.getText(), postal.getText(), phone.getText(), division.getSelectionModel().getSelectedItem(), country.getSelectionModel().getSelectedItem());
             CustomerDAO.modifyCustomer(customer);
             javaFXLoader.closeFXML(actionEvent);
         }

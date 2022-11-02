@@ -1,6 +1,7 @@
 package com.example.c195_assessment.dao;
 
 import com.example.c195_assessment.JDBC;
+import com.example.c195_assessment.dto.Country;
 import com.example.c195_assessment.dto.Customer;
 import com.example.c195_assessment.dto.Division;
 import javafx.collections.FXCollections;
@@ -43,10 +44,20 @@ public class CustomerDAO {
             for (int i = 0; i < DivisionDAO.divisionObservableList.size(); i++) {
                 if (DivisionDAO.divisionObservableList.get(i).getDivisionId() == resultSet.getInt("Division_ID")) {
                     division = DivisionDAO.divisionObservableList.get(i);
+                    break;
                 }
             }
 
-            Customer customer = new Customer(resultSet.getInt("Customer_ID"), resultSet.getString("Customer_Name"), resultSet.getString("Address"), resultSet.getString("Postal_Code"), resultSet.getString("Phone"), division);
+            Country country = new Country();
+            for (int i = 0; i < CountryDAO.countryObservableList.size(); i++) {
+                if (CountryDAO.countryObservableList.get(i).getCountryId() == division.getCountryId()) {
+                    country = CountryDAO.countryObservableList.get(i);
+                    break;
+                }
+            }
+
+
+            Customer customer = new Customer(resultSet.getInt("Customer_ID"), resultSet.getString("Customer_Name"), resultSet.getString("Address"), resultSet.getString("Postal_Code"), resultSet.getString("Phone"), division, country);
 
             customerObservableList.add(customer);
         }

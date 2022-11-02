@@ -23,6 +23,8 @@
                                      prefWidth="-1.0" sortable="false" text="%phone"/>
                         <TableColumn fx:id="division" editable="false" maxWidth="1.7976931348623157E308"
                                      minWidth="150.0" prefWidth="-1.0" sortable="false" text="%division"/>
+                        <TableColumn fx:id="country" editable="false" maxWidth="1.7976931348623157E308" minWidth="150.0"
+                                     prefWidth="-1.0" sortable="false" text="%country"/>
                     </columns>
                 </TableView>
             </center>

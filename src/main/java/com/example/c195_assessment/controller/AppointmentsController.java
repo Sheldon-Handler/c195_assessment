@@ -21,6 +21,8 @@ import java.util.ResourceBundle;
 /**
  * FXML Controller class
  * Controller for Appointments.fxml
+ *
+ * @// FIXME: 11/1/2022 make Appointments filter by not sort by and add Radio Button for display all
  */
 public class AppointmentsController implements Initializable {
 
