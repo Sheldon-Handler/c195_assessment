@@ -12,21 +12,28 @@
             <top>
                 <ToolBar>
                     <items>
-                        <Label text="%sort.by">
+                        <Label text="%filter.by">
                             <font>
                                 <Font name="System Bold" size="14.0"/>
                             </font>
                         </Label>
                         <ButtonBar>
                             <buttons>
-                                <RadioButton fx:id="weekRadioButton" contentDisplay="CENTER" mnemonicParsing="false"
-                                             onAction="#onWeekRadioButtonAction" selected="true" text="%week">
+                                <RadioButton fx:id="noneRadioButton" contentDisplay="CENTER" mnemonicParsing="false"
+                                             onAction="#onNoneRadioButtonAction" selected="true" text="%none">
                                     <font>
                                         <Font name="System Bold" size="14.0"/>
                                     </font>
                                     <toggleGroup>
                                         <ToggleGroup fx:id="toggleGroup"/>
                                     </toggleGroup>
+                                </RadioButton>
+                                <RadioButton fx:id="weekRadioButton" contentDisplay="CENTER" mnemonicParsing="false"
+                                             onAction="#onWeekRadioButtonAction" text="%week"
+                                             toggleGroup="$toggleGroup">
+                                    <font>
+                                        <Font name="System Bold" size="14.0"/>
+                                    </font>
                                 </RadioButton>
                                 <RadioButton fx:id="monthRadioButton" contentDisplay="CENTER" mnemonicParsing="false"
                                              onAction="#onMonthRadioButtonAction" text="%month"
@@ -37,6 +44,9 @@
                                 </RadioButton>
                             </buttons>
                         </ButtonBar>
+                        <Separator orientation="VERTICAL"/>
+                        <DatePicker fx:id="datePicker" disable="true" onAction="#onDatePickerAction"
+                                    showWeekNumbers="true"/>
                     </items>
                 </ToolBar>
             </top>

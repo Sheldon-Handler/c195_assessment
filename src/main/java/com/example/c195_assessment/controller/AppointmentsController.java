@@ -4,9 +4,11 @@ import com.example.c195_assessment.JavaFXLoader;
 import com.example.c195_assessment.dao.AppointmentDAO;
 import com.example.c195_assessment.dto.Appointment;
 import com.example.c195_assessment.dto.Contact;
+import javafx.collections.transformation.FilteredList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.DatePicker;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
@@ -16,6 +18,8 @@ import javafx.stage.Modality;
 import java.net.URL;
 import java.sql.SQLException;
 import java.time.LocalDateTime;
+import java.time.temporal.ChronoField;
+import java.time.temporal.WeekFields;
 import java.util.ResourceBundle;
 
 /**
@@ -27,13 +31,22 @@ import java.util.ResourceBundle;
 public class AppointmentsController implements Initializable {
 
     /**
-     * RadioButton to sort by week of Start
+     * RadioButton to prevent filtering
      */
     @FXML
-    protected RadioButton weekRadioButton, /**
-     * RadioButton to sort by month of Start
+    protected RadioButton noneRadioButton, /**
+     * RadioButton to filter by week of Start
+     */
+    weekRadioButton, /**
+     * RadioButton to filter by month of Start
      */
     monthRadioButton;
+
+    /**
+     * DatePicker for filtering Appointment
+     */
+    @FXML
+    protected DatePicker datePicker;
 
     /**
      * appointmentTableView of Appointment
@@ -84,6 +97,12 @@ public class AppointmentsController implements Initializable {
     end;
 
     /**
+     * FilteredList of Appointment
+     */
+    @FXML
+    protected FilteredList<Appointment> appointmentFilteredList = new FilteredList<>(AppointmentDAO.appointmentObservableList);
+
+    /**
      * Called to initialize a controller after its root element has been
      * completely processed.
      *
@@ -95,7 +114,7 @@ public class AppointmentsController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
-        appointmentTableView.setItems(AppointmentDAO.appointmentObservableListSortedByWeek);
+        appointmentTableView.setItems(appointmentFilteredList);
 
         this.appointmentId.setCellValueFactory(new PropertyValueFactory<>(this.appointmentId.getId()));
         this.title.setCellValueFactory(new PropertyValueFactory<>(this.title.getId()));
@@ -153,27 +172,93 @@ public class AppointmentsController implements Initializable {
         }
     }
 
+    @FXML
+    protected void onNoneRadioButtonAction(ActionEvent actionEvent) {
+
+        datePicker.setDisable(true);
+        datePicker.setValue(null);
+
+        // setting appointmentFilteredList to show all Appointments
+        appointmentFilteredList.setPredicate(appointment -> true);
+    }
+
     /**
      * Runs when weekRadioButton is pressed.
-     * Sorts appointmentTableView items by week number of the data from Start column
+     * If datePicker value is not valid, appointmentTableView displays all Appointment.
+     * * If datePicker has a valid value, filters appointmentTableView items to only show items with the same week number as the date in DatePicker
      *
      * @param actionEvent ActionEvent to pass
      */
     @FXML
     public void onWeekRadioButtonAction(ActionEvent actionEvent) {
-        appointmentTableView.setItems(AppointmentDAO.appointmentObservableListSortedByWeek);
-        appointmentTableView.refresh();
+
+        datePicker.setDisable(false);
+
+        if (datePicker.valueProperty().isNull().get()) {
+
+            // setting appointmentFilteredList to show all Appointment
+            appointmentFilteredList.setPredicate(appointment -> true);
+        } else {
+
+            // setting appointmentFilteredList to only show Appointment with the same week number as the date value in datePicker
+            appointmentFilteredList.setPredicate(appointment -> {
+                if (appointment.getStart().get(WeekFields.SUNDAY_START.weekOfYear()) == datePicker.getValue().get(WeekFields.SUNDAY_START.weekOfYear())) {
+                    return true;
+                } else {
+                    return false;
+                }
+            });
+        }
     }
 
     /**
      * Runs when monthRadioButton is pressed.
-     * Sorts appointmentTableView items by month of the data from Start column
+     * If datePicker value is not valid, appointmentTableView displays all Appointment.
+     * If datePicker has a valid value, filters appointmentTableView items to only show items with the same month as date in DatePicker
      *
      * @param actionEvent ActionEvent to pass
      */
     @FXML
     public void onMonthRadioButtonAction(ActionEvent actionEvent) {
-        appointmentTableView.setItems(AppointmentDAO.appointmentObservableListSortedByMonth);
-        appointmentTableView.refresh();
+
+        datePicker.setDisable(false);
+
+        if (datePicker.valueProperty().isNull().get()) {
+
+            // setting appointmentFilteredList to show all Appointment
+            appointmentFilteredList.setPredicate(appointment -> true);
+        } else {
+
+            // setting AppointmentFilteredList to only show Appointment with the same month as the one in the date value of datePicker
+            appointmentFilteredList.setPredicate(appointment -> {
+                if (appointment.getStart().get(ChronoField.MONTH_OF_YEAR) == datePicker.getValue().get(ChronoField.MONTH_OF_YEAR)) {
+                    return true;
+                } else {
+                    return false;
+                }
+            });
+        }
+    }
+
+    /**
+     * Runs onAction() of datePicker.
+     * Filters by selected RadioButton criteria to filter by using the LocalDate in the field if not null
+     *
+     * @param actionEvent ActionEvent to pass
+     */
+    @FXML
+    public void onDatePickerAction(ActionEvent actionEvent) {
+        if (datePicker.valueProperty().isNull().get()) {
+
+            // displays all Appointment without any filtering
+            appointmentFilteredList.setPredicate(appointment -> true);
+
+        } else {
+            if (weekRadioButton.isSelected()) {
+                onWeekRadioButtonAction(actionEvent);
+            } else if (monthRadioButton.isSelected()) {
+                onMonthRadioButtonAction(actionEvent);
+            }
+        }
     }
 }
