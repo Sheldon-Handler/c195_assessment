@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.c195_assessment.controller.CustomersInDivisionController">
+    <children>
+        <BorderPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <top>
+                <ToolBar>
+                    <items>
+                        <ComboBox fx:id="countryComboBox" minWidth="150.0" onAction="#onCountryAction" promptText="%country" />
+                        <ComboBox fx:id="divisionComboBox" disable="true" layoutX="10.0" layoutY="10.0" minWidth="200.0" onAction="#onDivisionAction" promptText="%division" />
+                    </items>
+                </ToolBar>
+            </top>
+            <center>
+                <TableView fx:id="customerTableView" BorderPane.alignment="CENTER">
+                    <columns>
+                        <TableColumn fx:id="customerId" editable="false" maxWidth="1.7976931348623157E308" minWidth="100.0" prefWidth="-1.0" sortable="false" text="%customer.id" />
+                        <TableColumn fx:id="customerName" editable="false" maxWidth="1.7976931348623157E308" minWidth="200.0" prefWidth="-1.0" sortable="false" text="%customer.name" />
+                        <TableColumn fx:id="address" editable="false" maxWidth="1.7976931348623157E308" minWidth="200.0" prefWidth="-1.0" sortable="false" text="%address" />
+                        <TableColumn fx:id="postalCode" editable="false" maxWidth="1.7976931348623157E308" minWidth="150.0" prefWidth="-1.0" sortable="false" text="%postal" />
+                        <TableColumn fx:id="phone" editable="false" maxWidth="1.7976931348623157E308" minWidth="200.0" prefWidth="-1.0" sortable="false" text="%phone" />
+                        <TableColumn fx:id="division" editable="false" maxWidth="1.7976931348623157E308" minWidth="150.0" prefWidth="-1.0" sortable="false" text="%division" />
+                  <TableColumn fx:id="country" editable="false" maxWidth="1.7976931348623157E308" minWidth="150.0" prefWidth="-1.0" sortable="false" text="%country" />
+                    </columns>
+                </TableView>
+            </center>
+        </BorderPane>
+    </children>
+</AnchorPane>

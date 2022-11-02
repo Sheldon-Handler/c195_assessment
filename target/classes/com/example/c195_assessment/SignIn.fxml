@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<TitledPane xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER" animated="false" collapsible="false"
+            mnemonicParsing="true" text="%sign.in" xmlns="http://javafx.com/javafx/17.0.1"
+            fx:controller="com.example.c195_assessment.controller.SignInController">
+    <content>
+        <GridPane>
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" minWidth="10.0" prefWidth="139.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="285.0" minWidth="10.0" prefWidth="203.0"/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="-Infinity" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="-Infinity" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="-Infinity" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="-Infinity" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="-Infinity" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            </rowConstraints>
+            <children>
+                <Label text="%username" GridPane.rowIndex="1">
+                    <font>
+                        <Font size="14.0"/>
+                    </font>
+                </Label>
+                <TextField fx:id="usernameField" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+                <Label text="%password" GridPane.rowIndex="2">
+                    <font>
+                        <Font size="14.0"/>
+                    </font>
+                </Label>
+                <PasswordField fx:id="passwordField" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+                <Label fx:id="label" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"
+                       GridPane.rowIndex="4">
+                    <font>
+                        <Font name="System Bold" size="12.0"/>
+                    </font>
+                </Label>
+                <ButtonBar GridPane.columnIndex="1" GridPane.rowIndex="4">
+                    <buttons>
+                        <Button fx:id="loginButton" contentDisplay="CENTER" defaultButton="true"
+                                onAction="#onLoginButtonClick" text="%login"/>
+                    </buttons>
+                </ButtonBar>
+            </children>
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+            </padding>
+        </GridPane>
+    </content>
+    <font>
+        <Font name="System Bold" size="14.0"/>
+    </font>
+</TitledPane>
