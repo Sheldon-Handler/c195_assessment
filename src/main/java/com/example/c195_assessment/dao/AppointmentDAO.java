@@ -73,7 +73,38 @@ public class AppointmentDAO {
 
         preparedStatement.close();
 
+        setAppointmentObservableListSortedByStart();
         setNumberOfAppointmentsObservableList();
+    }
+
+    /**
+     * Sets appointmentsObservableListSortedByStart from each row in database table "appointments" sorted by the value in column "Start".
+     *
+     * @throws SQLException SQLException to throw if SQL query fails
+     */
+    public static void setAppointmentObservableListSortedByStart() throws SQLException {
+
+        PreparedStatement preparedStatement = JDBC.getConnection().prepareStatement("SELECT * FROM appointments ORDER BY Start;");
+
+        ResultSet resultSet = preparedStatement.executeQuery();
+
+        appointmentObservableListSortedByStart.clear();
+
+        while (resultSet.next()) {
+
+
+            LocalDateTime start = resultSet.getTimestamp("Start").toLocalDateTime();
+
+            LocalDateTime end = resultSet.getTimestamp("End").toLocalDateTime();
+
+            Contact contact = ContactDAO.getContactFromId(resultSet.getInt("Contact_ID"));
+
+            Appointment appointment = new Appointment(resultSet.getInt("Appointment_ID"), resultSet.getString("Title"), resultSet.getString("Description"), resultSet.getString("Location"), resultSet.getString("Type"), start, end, resultSet.getInt("Customer_ID"), resultSet.getInt("User_ID"), contact);
+
+            appointmentObservableListSortedByStart.add(appointment);
+        }
+
+        preparedStatement.close();
     }
 
     /**
