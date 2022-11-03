@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d30cad4a-91bd-437f-a7cf-350f57c33d52" name="Changes" comment="Fixed overlap filtering.">
+    <list default="true" id="d30cad4a-91bd-437f-a7cf-350f57c33d52" name="Changes" comment="Fixed JavaDoc">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +77,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.14941406",
     "project.structure.side.proportion": "0.20689656",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -144,7 +145,8 @@
       <workItem from="1667323327986" duration="6601000" />
       <workItem from="1667340239929" duration="618000" />
       <workItem from="1667344199330" duration="127000" />
-      <workItem from="1667351705789" duration="7441000" />
+      <workItem from="1667351705789" duration="7489000" />
+      <workItem from="1667488977850" duration="289000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1666808055040</created>
@@ -335,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667406208590</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Fixed JavaDoc">
+      <created>1667406281759</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1667406281759</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,7 +384,8 @@
     <MESSAGE value="fixed git" />
     <MESSAGE value="fixed Appointments.fxml and AppointmentsController.java" />
     <MESSAGE value="Fixed overlap filtering." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed overlap filtering." />
+    <MESSAGE value="Fixed JavaDoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed JavaDoc" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
