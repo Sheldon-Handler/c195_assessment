@@ -4,139 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d30cad4a-91bd-437f-a7cf-350f57c33d52" name="Changes" comment="Fixed JavaDoc">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/allclasses-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/allpackages-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/AppointmentValidator.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/AppointmentValidator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/JDBC.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/JDBC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/JavaFXLoader.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/JavaFXLoader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/LogWriter.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/LogWriter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/AppointmentValidator.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/AppointmentValidator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/JDBC.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/JDBC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/JavaFXLoader.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/JavaFXLoader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/LogWriter.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/LogWriter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/class-use/Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/AddAppointmentController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/AddAppointmentController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/AddCustomerController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/AddCustomerController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/AppointmentsController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/AppointmentsController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/ContactScheduleController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/ContactScheduleController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/CustomersController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/CustomersController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/CustomersInDivisionController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/CustomersInDivisionController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/DialogController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/DialogController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/EditAppointmentController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/EditAppointmentController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/EditCustomerController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/EditCustomerController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/HomeController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/HomeController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/NumberOfAppointmentsController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/NumberOfAppointmentsController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/ReportsController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/ReportsController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/SignInController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/SignInController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/AddAppointmentController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/AddAppointmentController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/AddCustomerController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/AddCustomerController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/AppointmentsController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/AppointmentsController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/ContactScheduleController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/ContactScheduleController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/CustomersController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/CustomersController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/CustomersInDivisionController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/CustomersInDivisionController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/DialogController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/DialogController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/EditAppointmentController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/EditAppointmentController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/EditCustomerController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/EditCustomerController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/HomeController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/HomeController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/NumberOfAppointmentsController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/NumberOfAppointmentsController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/ReportsController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/ReportsController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/SignInController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/class-use/SignInController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/controller/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/ContactStringConverter.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/ContactStringConverter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/CountryStringConverter.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/CountryStringConverter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/CustomerStringConverter.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/CustomerStringConverter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/DivisionStringConverter.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/DivisionStringConverter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/UserStringConverter.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/UserStringConverter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/class-use/ContactStringConverter.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/class-use/ContactStringConverter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/class-use/CountryStringConverter.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/class-use/CountryStringConverter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/class-use/CustomerStringConverter.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/class-use/CustomerStringConverter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/class-use/DivisionStringConverter.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/class-use/DivisionStringConverter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/class-use/UserStringConverter.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/class-use/UserStringConverter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/converter/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/AppointmentDAO.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/AppointmentDAO.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/ContactDAO.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/ContactDAO.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/CountryDAO.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/CountryDAO.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/CustomerDAO.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/CustomerDAO.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/DivisionDAO.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/DivisionDAO.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/UserDAO.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/UserDAO.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/class-use/AppointmentDAO.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/class-use/AppointmentDAO.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/class-use/ContactDAO.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/class-use/ContactDAO.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/class-use/CountryDAO.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/class-use/CountryDAO.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/class-use/CustomerDAO.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/class-use/CustomerDAO.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/class-use/DivisionDAO.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/class-use/DivisionDAO.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/class-use/UserDAO.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/class-use/UserDAO.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dao/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/Appointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/Appointment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/Contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/Country.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/Country.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/Customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/Customer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/Division.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/Division.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/NumberOfAppointments.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/NumberOfAppointments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/User.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/User.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/class-use/Appointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/class-use/Appointment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/class-use/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/class-use/Contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/class-use/Country.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/class-use/Country.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/class-use/Customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/class-use/Customer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/class-use/Division.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/class-use/Division.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/class-use/NumberOfAppointments.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/class-use/NumberOfAppointments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/class-use/User.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/class-use/User.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/dto/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/com/example/c195_assessment/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/c195_assessment/module-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/c195_assessment/module-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/constant-values.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-15.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-16.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-16.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-17.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-17.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-18.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-18.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-19.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/legal/jquery.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/legal/jquery.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/legal/jqueryUI.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/legal/jqueryUI.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/member-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/module-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/module-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/package-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/package-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/tag-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/tag-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AddCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AddCustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AppointmentsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/AppointmentsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/ContactScheduleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/ContactScheduleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/CustomersInDivisionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/CustomersInDivisionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/EditCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/EditCustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/NumberOfAppointmentsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/c195_assessment/controller/NumberOfAppointmentsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/Appointments.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/c195_assessment/Appointments.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="d30cad4a-91bd-437f-a7cf-350f57c33d52" name="Changes" comment="Fixed Attempt 2 problems." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -280,7 +148,7 @@
       <workItem from="1667351705789" duration="7489000" />
       <workItem from="1667488977850" duration="561000" />
       <workItem from="1667490035213" duration="3883000" />
-      <workItem from="1667581411545" duration="4232000" />
+      <workItem from="1667581411545" duration="4614000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1666808055040</created>
@@ -527,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667495406738</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Fixed Attempt 2 problems.">
+      <created>1667586084938</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1667586084938</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +421,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed documentation and inline code comment issues." />
     <MESSAGE value="First commit" />
     <MESSAGE value="Documentation fixed" />
     <MESSAGE value="Fixed multiple things" />
@@ -571,7 +445,8 @@
     <MESSAGE value="Fixed .gitignore" />
     <MESSAGE value="Fixed .gitignore to exclude login_activity.txt" />
     <MESSAGE value="Fixed JavaDoc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed JavaDoc" />
+    <MESSAGE value="Fixed Attempt 2 problems." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Attempt 2 problems." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
