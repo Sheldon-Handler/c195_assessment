@@ -95,12 +95,13 @@ public class AddCustomerController implements Initializable {
         division.setConverter(new DivisionStringConverter());
         division.setItems(DivisionDAO.divisionObservableList);
 
-        // adding Listener for Country to run onCountrySelected whenever an item in Country ComboxBox is selected
+        // This function adds a Listener for Country to run onCountrySelected() whenever an item in Country ComboBox is selected.
         country.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> onCountrySelected());
     }
 
     /**
      * Enables selection of Division and sets the items to FilteredList of each division in selected Country
+     * Lambda expression sets ComboBox "division" to display each Division in Country as a selectable option.
      */
     @FXML
     public void onCountrySelected() {

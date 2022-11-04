@@ -45,7 +45,7 @@
                             </buttons>
                         </ButtonBar>
                         <Separator orientation="VERTICAL"/>
-                        <DatePicker fx:id="datePicker" disable="true" onAction="#onDatePickerAction"
+                        <DatePicker fx:id="datePicker" disable="true" editable="false" onAction="#onDatePickerAction"
                                     showWeekNumbers="true"/>
                     </items>
                 </ToolBar>

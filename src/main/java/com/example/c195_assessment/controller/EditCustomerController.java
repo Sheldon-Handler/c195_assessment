@@ -102,7 +102,6 @@ public class EditCustomerController implements Initializable {
             address.setText(customer.getAddress());
         }
 
-
         postal.setText(customer.getPostalCode());
         phone.setText(customer.getPhone());
 
@@ -112,13 +111,14 @@ public class EditCustomerController implements Initializable {
         division.setConverter(new DivisionStringConverter());
         division.setItems(DivisionDAO.divisionObservableList);
 
-        // adding Listener for Country to run onCountrySelected whenever an item in ComboxBox country is selected
+        // This function adds a Listener for Country to run onCountrySelected() whenever an item in Country ComboBox is selected.
         country.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> onCountrySelected());
 
         // selecting the Country for customer
         for (int i = 0; i < country.getItems().size(); i++) {
             if (country.getItems().get(i).getCountryId() == customer.getDivision().getCountryId()) {
                 country.getSelectionModel().select(i);
+                break;
             }
         }
 
@@ -128,6 +128,7 @@ public class EditCustomerController implements Initializable {
 
     /**
      * Enables selection of Division and sets the items to FilteredList of each division in selected Country
+     * Lambda expression sets ComboBox "division" to display each Division in Country as a selectable option.
      */
     @FXML
     public void onCountrySelected() {

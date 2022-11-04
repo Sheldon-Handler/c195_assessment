@@ -162,7 +162,7 @@ public class AppointmentsController implements Initializable {
         Appointment appointment = appointmentTableView.getSelectionModel().getSelectedItem();
         try {
             AppointmentDAO.deleteAppointment(appointment);
-            DialogController.contentText = ResourceBundle.getBundle("lang").getString("appointment.deleted") + " " + appointment.getAppointmentId();
+            DialogController.contentText = ResourceBundle.getBundle("lang").getString("appointment.deleted") + " " + appointment.getAppointmentId() + "\n" + ResourceBundle.getBundle("lang").getString("type") + ": " + appointment.getType();
             JavaFXLoader javaFXLoader = new JavaFXLoader();
             javaFXLoader.loadFXML("Dialog.fxml", ResourceBundle.getBundle("lang").getString("deleted"), Modality.APPLICATION_MODAL);
         } catch (SQLException e) {
@@ -170,20 +170,26 @@ public class AppointmentsController implements Initializable {
         }
     }
 
+    /**
+     * Runs onAction() when noneRadioButton is clicked.
+     * Disables and clears datePicker, then sets appointmentTableView to show all Appointment in AppointmentDAO.appointmentObservableList
+     * The lambda function sets appointmentFilteredList to display all Appointment in appointmentTableView.
+     *
+     * @param actionEvent ActionEvent to pass
+     */
     @FXML
     protected void onNoneRadioButtonAction(ActionEvent actionEvent) {
 
         datePicker.setDisable(true);
         datePicker.setValue(null);
 
-        // setting appointmentFilteredList to show all Appointments
         appointmentFilteredList.setPredicate(appointment -> true);
     }
 
     /**
      * Runs when weekRadioButton is pressed.
-     * If datePicker value is not valid, appointmentTableView displays all Appointment.
-     * * If datePicker has a valid value, filters appointmentTableView items to only show items with the same week number as the date in DatePicker
+     * Sets datePicker to not being disabled.
+     * The lambda function sets appointmentFilteredList to only display the Appointment in the same week as the date selected in datePicker in appointmentTableView
      *
      * @param actionEvent ActionEvent to pass
      */
@@ -192,27 +198,19 @@ public class AppointmentsController implements Initializable {
 
         datePicker.setDisable(false);
 
-        if (datePicker.valueProperty().isNull().get()) {
-
-            // setting appointmentFilteredList to show all Appointment
-            appointmentFilteredList.setPredicate(appointment -> true);
-        } else {
-
-            // setting appointmentFilteredList to only show Appointment with the same week number as the date value in datePicker
-            appointmentFilteredList.setPredicate(appointment -> {
-                if (appointment.getStart().get(WeekFields.SUNDAY_START.weekOfYear()) == datePicker.getValue().get(WeekFields.SUNDAY_START.weekOfYear())) {
-                    return true;
-                } else {
-                    return false;
-                }
-            });
-        }
+        appointmentFilteredList.setPredicate(appointment -> {
+            if (appointment.getStart().get(WeekFields.SUNDAY_START.weekOfYear()) == datePicker.getValue().get(WeekFields.SUNDAY_START.weekOfYear())) {
+                return true;
+            } else {
+                return false;
+            }
+        });
     }
 
     /**
      * Runs when monthRadioButton is pressed.
-     * If datePicker value is not valid, appointmentTableView displays all Appointment.
-     * If datePicker has a valid value, filters appointmentTableView items to only show items with the same month as date in DatePicker
+     * Sets datePicker to not be disabled.
+     * The lambda function sets appointmentFilteredList to only display the Appointment in the same month as the date selected in datePicker in appointmentTableView
      *
      * @param actionEvent ActionEvent to pass
      */
@@ -221,22 +219,15 @@ public class AppointmentsController implements Initializable {
 
         datePicker.setDisable(false);
 
-        if (datePicker.valueProperty().isNull().get()) {
-
-            // setting appointmentFilteredList to show all Appointment
-            appointmentFilteredList.setPredicate(appointment -> true);
-        } else {
-
-            // setting AppointmentFilteredList to only show Appointment with the same month as the one in the date value of datePicker
-            appointmentFilteredList.setPredicate(appointment -> {
-                if (appointment.getStart().get(ChronoField.MONTH_OF_YEAR) == datePicker.getValue().get(ChronoField.MONTH_OF_YEAR)) {
-                    return true;
-                } else {
-                    return false;
-                }
-            });
-        }
+        appointmentFilteredList.setPredicate(appointment -> {
+            if (appointment.getStart().get(ChronoField.MONTH_OF_YEAR) == datePicker.getValue().get(ChronoField.MONTH_OF_YEAR)) {
+                return true;
+            } else {
+                return false;
+            }
+        });
     }
+
 
     /**
      * Runs onAction() of datePicker.
@@ -246,17 +237,11 @@ public class AppointmentsController implements Initializable {
      */
     @FXML
     public void onDatePickerAction(ActionEvent actionEvent) {
-        if (datePicker.valueProperty().isNull().get()) {
 
-            // displays all Appointment without any filtering
-            appointmentFilteredList.setPredicate(appointment -> true);
-
-        } else {
-            if (weekRadioButton.isSelected()) {
-                onWeekRadioButtonAction(actionEvent);
-            } else if (monthRadioButton.isSelected()) {
-                onMonthRadioButtonAction(actionEvent);
-            }
+        if (weekRadioButton.isSelected()) {
+            onWeekRadioButtonAction(actionEvent);
+        } else if (monthRadioButton.isSelected()) {
+            onMonthRadioButtonAction(actionEvent);
         }
     }
 }

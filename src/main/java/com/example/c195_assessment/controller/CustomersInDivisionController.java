@@ -120,47 +120,40 @@ public class CustomersInDivisionController implements Initializable {
 
     /**
      * Runs in FXML onAction() function for countryComboBox
-     * Filters customerTableView by the Country that is selected countryComboBox
+     * First lambda expression filters customerTableView by the Country that is selected countryComboBox
+     * Second lambda expression filters divisionComboBox to only include Division that part of selected Country
      *
      * @param actionEvent ActionEvent to pass
      */
     @FXML
     public void onCountryAction(ActionEvent actionEvent) {
 
-        if (countryComboBox.getSelectionModel().isEmpty()) {
+        customerFilteredList.setPredicate(customer -> {
+            if (customer.getDivision().getCountryId() == countryComboBox.getSelectionModel().getSelectedItem().getCountryId()) {
+                return true;
+            } else {
+                return false;
+            }
+        });
 
-            divisionComboBox.setDisable(true);
-            divisionComboBox.getSelectionModel().clearSelection();
-            customerFilteredList.setPredicate(customer -> true);
+        divisionComboBox.getSelectionModel().clearSelection();
 
-        } else {
+        // setting items in divisionFilteredList
+        divisionFilteredList.setPredicate(division1 -> {
+            if (division1.getCountryId() == countryComboBox.getSelectionModel().getSelectedItem().getCountryId()) {
+                return true;
+            } else {
+                return false;
+            }
+        });
 
-            customerFilteredList.setPredicate(customer -> {
-                if (customer.getDivision().getCountryId() == countryComboBox.getSelectionModel().getSelectedItem().getCountryId()) {
-                    return true;
-                } else {
-                    return false;
-                }
-            });
-
-            divisionComboBox.getSelectionModel().clearSelection();
-
-            // setting items in divisionFilteredList
-            divisionFilteredList.setPredicate(division1 -> {
-                if (division1.getCountryId() == countryComboBox.getSelectionModel().getSelectedItem().getCountryId()) {
-                    return true;
-                } else {
-                    return false;
-                }
-            });
-
-            divisionComboBox.setDisable(false);
-        }
+        divisionComboBox.setDisable(false);
     }
 
     /**
      * Runs in FXML onAction() function for countryComboBox
-     * Filters customerTableView by Division selected in divisionComboBox
+     * First lambda expression runs if no Division is selected to display all Appointment in the same Country
+     * Second lambda expression runs when a Division is selected to display all Appointment in that Division
      *
      * @param actionEvent ActionEvent to pass
      */

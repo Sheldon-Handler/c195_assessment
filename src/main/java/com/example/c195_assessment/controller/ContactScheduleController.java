@@ -111,8 +111,8 @@ public class ContactScheduleController implements Initializable {
 
     /**
      * Runs onAction() of contactComboBox.
-     * If contactComboBox is empty, it sets appointmentTableView to display all Appointments.
-     * If an item in contactComboBox is selected, it filters appointmentTableView to only display appointments with selected Contact.
+     * Lambda expression: if contactComboBox is empty, it sets appointmentTableView to display all Appointments.
+     * Lambda expression: If an item in contactComboBox is selected, it filters appointmentTableView to only display appointments with selected Contact.
      *
      * @param actionEvent ActionEvent to pass
      */

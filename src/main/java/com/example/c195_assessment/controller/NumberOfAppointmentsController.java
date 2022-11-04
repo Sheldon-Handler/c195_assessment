@@ -57,6 +57,5 @@ public class NumberOfAppointmentsController implements Initializable {
         this.type.setCellValueFactory(new PropertyValueFactory<>(this.type.getId()));
         this.month.setCellValueFactory(new PropertyValueFactory<>(this.month.getId()));
         this.numberOfAppointments.setCellValueFactory(new PropertyValueFactory<>(this.numberOfAppointments.getId()));
-
     }
 }
